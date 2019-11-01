@@ -1,29 +1,23 @@
-# Gridsome Blog Starter
+# VuejsID Blog
 
-> A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7afcf19c-5b2c-4b8c-9a0f-3cdb7b8dae6b/deploy-status)](https://app.netlify.com/sites/vuejsid-blog/deploys) ![Website Up](https://img.shields.io/website-up-down-green-red/https/vuejsid-blog.netlify.svg) ![Dependencies](https://img.shields.io/david/vuejs-id/blog.svg)
 
-## Features
-- Beautiful and simple design.
-- Markdown for content.
-- Tags support.
-- Dark / Light toggle.
-- CSS variables, SCSS & BEM for styling.
-- 100, 100, 100, 100 score on Google Lighthouse.
-- Uses same front-matter fields as Dev.to.
+> Sebuah blog dari VuejsID yang membahas berbagai hal mengenai Vue.js dan ekosistemnya
 
-## Demo URL
+## Live
 
-https://gridsome-starter-blog.netlify.com
+- [https://vuejsid-blog.netlify.com/](https://vuejsid-blog.netlify.com/)
 
-## Install
+## Development
 
-### 1. Install Gridsome CLI tool if you don't have
+1. Install deps `yarn`
+2. Run project `yarn develop`, open at `http://localhost:8080`
+3. Build project `yarn build`
 
-`npm install --global @gridsome/cli`
+## Based on Starter
 
-### 2. Install this starter
+- [gridsome-starter-blog](https://github.com/gridsome/gridsome-starter-blog)
 
-1. `gridsome create my-gridsome-site https://github.com/gridsome/gridsome-starter-blog.git`
-2. `cd my-gridsome-site` to open folder
-3. `gridsome develop` to start local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+---
+
+Copyright © 2019 by VuejsID Teams
