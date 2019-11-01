@@ -12,9 +12,11 @@
     "@gridsome/remark-prismjs": "0.3.0",
     "@gridsome/source-filesystem": "0.6.2",
     "@gridsome/transformer-remark": "0.4.0",
-    "add": "2.0.6",
+    "add": "^2.0.6",
     "gridsome": "0.7.9",
-    "yarn": "1.19.1"
+    "gridsome-plugin-feed": "^1.0.2",
+    "gridsome-plugin-pwa": "^0.0.9",
+    "yarn": "^1.19.1"
   },
   "devDependencies": {
     "node-sass": "4.13.0",
