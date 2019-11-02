@@ -16,6 +16,7 @@
     </main>
 
     <footer class="footer">
+      <SocialLinks />
       <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
       <span class="footer__links">Powered by <a href="//gridsome.org"> Gridsome </a></span>
     </footer>
@@ -26,6 +27,7 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
+import SocialLinks from '~/components/SocialLinks.vue'
 
 export default {
   props: {
@@ -33,7 +35,8 @@ export default {
   },
   components: {
     Logo,
-    ToggleTheme
+    ToggleTheme,
+    SocialLinks
   }
 }
 </script>
@@ -67,7 +70,7 @@ export default {
 }
 
 .footer {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   padding: calc(var(--space) / 2);
