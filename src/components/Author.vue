@@ -12,10 +12,6 @@
 		</p>
 
 		<p class="author__links">
-			<a href="https://www.facebook.com/groups/1675298779418239/">Facebook</a>
-			<a href="https://t.me/vuejsid">Telegram</a>
-			<a href="https://github.com/vuejs-id">GitHub</a>
-			<a href="https://vuejs.id/">Website</a>
 			<a href="https://docs.vuejs.id/">Dokumentasi Vue.js</a>
 		</p>
 
