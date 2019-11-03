@@ -6,7 +6,7 @@ author_link: https://mazipan.space/
 published: true
 tags: ['Tutorial', 'Dasar', 'Serial']
 series: true
-cover_image: ./images/pengetahuan-dasar-vuejs-bagian-1/vuejs-logo.jpeg
+cover_image: ./images/shared/vuejs-logo.jpeg
 canonical_url: false
 description: Berbagai pengetahuan dasar yang perlu Anda ketahui di Vue.js.
 ---
