@@ -4,7 +4,7 @@ date: 2018-02-07
 author: mazipan
 author_links: https://www.mazipan.xyz/
 published: true
-tags: ['Icon', 'SVG']
+tags: ['Tutorial', 'Icon', 'SVG']
 series: false
 cover_image: ./images/membuat-vuejs-inline-svg-icon-component/cover.png
 canonical_url: false
