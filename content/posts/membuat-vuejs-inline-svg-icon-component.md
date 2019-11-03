@@ -1,8 +1,8 @@
 ---
 title: Membuat Vue.js Inline SVG Icon Component
 date: 2018-02-07
-author: mazipan
-author_link: https://www.mazipan.xyz/
+author: Irfan Maulana
+author_link: https://mazipan.space/
 published: true
 tags: ['Tutorial', 'Icon', 'SVG']
 series: false
