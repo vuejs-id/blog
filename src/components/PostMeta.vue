@@ -4,6 +4,12 @@
       <template v-if="post.timeToRead">
         <strong>{{ post.timeToRead }} min read.</strong>
       </template>
+      <template v-if="post.author && post.author_link">
+        Dituliskan Oleh
+        <a :href="post.author_link">
+          {{ post.author }}
+        </a>
+      </template>
     </div>
 </template>
 
