@@ -58,6 +58,8 @@ export default {
 query Post ($id: ID!) {
   post: post (id: $id) {
     title
+    author
+    author_link
     path
     date (format: "D. MMMM YYYY")
     timeToRead
