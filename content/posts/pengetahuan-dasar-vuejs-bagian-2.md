@@ -1,6 +1,6 @@
 ---
 title: Pengetahuan Dasar Vue.js   - Bagian 2
-date: 2017-09-05
+date: 2017-09-06
 author: mazipan
 author_link: https://mazipan.space/
 published: true
