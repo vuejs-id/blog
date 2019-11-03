@@ -38,7 +38,7 @@ module.exports = {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
-        exclude: ['/exclude-me'],
+        exclude: [],
         config: {
           '/articles/*': {
             changefreq: 'weekly',
