@@ -1,7 +1,7 @@
 <template>
-  <div class="post-author">
-    <span class="tooltiptext">
-      {{ post.author.id }}
+  <div class="post-author" v-if="post.author">
+    <span class="tooltiptext" v-if="post.author.title">
+      {{ post.author.title }}
     </span>
     <g-link class="post-author__link" :to="post.author.path">
       <g-image

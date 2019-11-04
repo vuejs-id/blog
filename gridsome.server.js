@@ -16,6 +16,7 @@ module.exports = function (api) {
 
     if (options.internal.typeName === 'Tag') {
       options.slug = slugify(String(options.title).toLowerCase())
+      options.title = String(options.title).toLowerCase()
     }
 
     return { ...options }

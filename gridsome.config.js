@@ -15,8 +15,8 @@ module.exports = {
 
   templates: {
     Post: '/:title',
-    Tag: '/tag/:id',
-    Author: '/author/:id'
+    Tag: '/tag/:title',
+    Author: '/author/:title'
   },
 
   plugins: [
