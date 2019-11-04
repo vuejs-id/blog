@@ -7,8 +7,8 @@
       <h2 class="post-card__title" v-html="post.title" />
       <p class="post-card__description" v-html="post.description" />
 
-      <PostMeta class="post-card__meta" :post="post" />
       <PostTags class="post-card__tags" :post="post" />
+      <PostMeta class="post-card__meta" :post="post" />
 
       <g-link class="post-card__link" :to="post.path">Link</g-link>
     </div>
@@ -22,7 +22,7 @@ import PostTags from '~/components/PostTags'
 export default {
   components: {
     PostMeta,
-    PostTags
+    PostTags,
   },
   props: ['post'],
 }
@@ -59,7 +59,7 @@ export default {
     box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
   }
 
-  &__tags {
+  &__tags, &__meta {
     z-index: 1;
     position: relative;
   }

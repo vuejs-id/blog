@@ -2,7 +2,6 @@
 title: Pengetahuan Dasar Vue.js   - Bagian 3
 date: 2017-09-08
 author: mazipan
-author_link: https://mazipan.space/
 published: true
 tags: ['Tutorial', 'Dasar', 'Serial']
 series: true

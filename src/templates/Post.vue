@@ -4,11 +4,8 @@
       <h1 class="post-title__text">
         {{ $page.post.title }}
       </h1>
-
       <PostMeta :post="$page.post" />
-
     </div>
-
     <div class="post content-box">
       <div class="post__header">
         <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
@@ -58,11 +55,17 @@ export default {
 query Post ($id: ID!) {
   post: post (id: $id) {
     title
-    author
-    author_link
     path
-    date (format: "D. MMMM YYYY")
+    date (format: "D MMM YYYY")
     timeToRead
+    author {
+      id
+      name
+      link
+      title
+      avatar
+      path
+    }
     tags {
       id
       title
@@ -103,11 +106,6 @@ query Post ($id: ID!) {
   &__content {
     h2:first-child {
       margin-top: 0;
-    }
-
-    p:first-of-type {
-      font-size: 1.2em;
-      color: var(--title-color);
     }
 
     img {

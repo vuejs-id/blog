@@ -1,8 +1,7 @@
 ---
 title: Membuat Vue.js Inline SVG Icon Component
 date: 2018-02-07
-author: Irfan Maulana
-author_link: https://mazipan.space/
+author: mazipan
 published: true
 tags: ['Tutorial', 'Icon', 'SVG']
 series: false
@@ -91,4 +90,4 @@ Hal yang berbeda adalah bahwa file App.vue yang ada di demo merupakan hasil gene
 
 Demikian tulisan singkat dari saya, semoga bermanfaat. Semua kode yang dibagikan di artikel diatas bisa Anda temukan di Github repository berikut:
 
-[mazipan/vue-ionicons Vue Icon Set Components from Ionic Team](https://github.com/mazipan/vue-ionicons)
+[mazipan/vue-ionicons](https://github.com/mazipan/vue-ionicons)

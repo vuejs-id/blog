@@ -18,11 +18,19 @@ query {
       node {
         id
         title
-        date (format: "D. MMMM YYYY")
+        date (format: "D MMM YYYY")
         timeToRead
         description
         cover_image (width: 770, height: 380, blur: 10)
         path
+        author {
+          id
+          name
+          link
+          title
+          avatar
+          path
+        }
         tags {
           id
           title
