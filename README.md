@@ -49,7 +49,6 @@ Harap lengkapi konteks artikel kamu pada header markdown, contoh:
 title: Membuat Vue.js Inline SVG Icon Component
 date: 2018-02-07
 author: mazipan
-author_link: https://www.mazipan.xyz/
 published: true
 tags: ['Tutorial', 'Icon', 'SVG']
 series: false
@@ -61,8 +60,7 @@ description: "Belajar langkah demi langkah membuat Vue.js inline SVG icon compon
 
 1. **title**: berisi judul artikel
 2. **date**: tanggal penerbitan artikel
-3. **author**: berisi nama penulis
-4. **author_link**: berisi link sosial media/situs web penulis
+3. **author**: berisi nama penulis (bila nama kalian belum pernah ada, maka tambahkan di file `authors.js`)
 5. **published**: bernilai `true` atau `false`, `true` berarti artikel yang Kamu kirim akan dipublikasi dan `false` berarti artikel yang Kamu kirim belum dipublikasi.
 6. **tags**: bernilai array yang berisi tag artikel
 7. **series**: bernilai `true` atau `false`, `true` berarti artikel yang Kamu kirim memiliki seri, misal _Pengetahuan Dasar Vue.js Bagian 1_, kemudian nanti Kamu akan mempublikasikan artikel baru bagian 2. Sedangkan `false` berarti artikel yang Kamu kirim tidak memiliki seri atau artikel tunggal.
