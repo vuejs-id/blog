@@ -1,20 +1,9 @@
 <template>
 	<div class="author">
-
 		<g-image alt="Author image" class="author__image" src="~/assets/images/vuejs-id.png" width="180" height="180" blur="5" />
-
 		<h1 v-if="showTitle" class="author__site-title">
 			{{ $static.metadata.siteName }}
 		</h1>
-
-		<p class="author__intro">
-			Komunitas Vue.js Indonesia
-		</p>
-
-		<p class="author__links">
-			<a href="https://docs.vuejs.id/">Dokumentasi Vue.js</a>
-		</p>
-
 	</div>
 </template>
 

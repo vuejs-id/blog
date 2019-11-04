@@ -15,7 +15,8 @@ module.exports = {
 
   templates: {
     Post: '/:title',
-    Tag: '/tag/:id'
+    Tag: '/tag/:id',
+    Author: '/author/:id'
   },
 
   plugins: [
@@ -30,7 +31,11 @@ module.exports = {
           tags: {
             typeName: 'Tag',
             create: true
-          }
+          },
+          author: {
+            typeName: 'Author',
+            create: true
+          },
         }
       }
     },

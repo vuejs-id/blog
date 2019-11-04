@@ -1,27 +1,36 @@
 <template>
    <div class="post-meta">
-      Posted {{ post.date }}.
-      <template v-if="post.timeToRead">
-        <strong>{{ post.timeToRead }} min read.</strong>
-      </template>
-      <template v-if="post.author && post.author_link">
-        Dituliskan Oleh
-        <a :href="post.author_link">
-          {{ post.author }}
-        </a>
-      </template>
+      <PostAuthor class="post-card__author" :post="post" />
+      <div>
+        {{ post.date }} -
+        <template v-if="post.timeToRead">
+          <strong>{{ post.timeToRead }} min read</strong>
+        </template>
+      </div>
     </div>
 </template>
 
 <script>
+import PostAuthor from '~/components/PostAuthor'
+
 export default {
-  props: ['post']
+  props: ['post'],
+  components: {
+    PostAuthor,
+  },
 }
 </script>
 
 <style lang="scss">
 .post-meta {
-  font-size: .8em;
+  margin: 1em auto 0 auto;
+	max-width: var(--content-width);
+
+  font-size: .7em;
   opacity: .8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
 }
 </style>

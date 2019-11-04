@@ -2,7 +2,6 @@
 title: Pengetahuan Dasar Vue.js   - Bagian 1
 date: 2017-09-05
 author: mazipan
-author_link: https://mazipan.space/
 published: true
 tags: ['Tutorial', 'Dasar', 'Serial']
 series: true
@@ -72,7 +71,7 @@ Vue.js menggunakan syntax `{{ }}` seperti terlihat pada gambar diatas, dengan sy
 </div>
 ```
 
-Seperti disebut sebelumnya, di Vue.js kita menggunakan `v-bind` untuk melakukan binding ke dalam HTML. Maka jika kita melihat ke gambar diatas berarti kita ingin menambahkan attribute _title_ ke dalam span dengan menggunakan data dinamis dari javascript. `v-bind` pada dasarnya bisa diterapkan pada berbagai attribute di HTML sehingga kita mungkin akan menemui banyak variasi `v-bind` ini seperti `v-bind:src`, `v-bind:class`, `v-bind:alt`, dan lain sebagainya. 
+Seperti disebut sebelumnya, di Vue.js kita menggunakan `v-bind` untuk melakukan binding ke dalam HTML. Maka jika kita melihat ke gambar diatas berarti kita ingin menambahkan attribute _title_ ke dalam span dengan menggunakan data dinamis dari javascript. `v-bind` pada dasarnya bisa diterapkan pada berbagai attribute di HTML sehingga kita mungkin akan menemui banyak variasi `v-bind` ini seperti `v-bind:src`, `v-bind:class`, `v-bind:alt`, dan lain sebagainya.
 Vue.js juga menyediakan shortcut untuk kita mendefinisikan `v-bind` di dalam HTML yakni dengan menghilangkan bagian `v-bind` nya, jadi kita bisa menggunakan shortcut seperti `:title`, `:src`, `:class`, `:alt` dan sebagainya.
 
 ### 3. Two way data binding
