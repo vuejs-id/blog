@@ -83,7 +83,7 @@ nama file :
 membuat-vuejs-inline-svg-icon-component.md
 ```
 
-Jika anda menempatkan image anda pada repo blog, maka taruhlah dalam folder `content/post/images/[nama file markdown anda]`. Jika dimungkinkan anda memiliki gambar yang sama dan digunakan pada beberapa artikel anda yang berbeda, maka gunkanan folder `content/images/shared/`.
+Jika anda menempatkan image anda pada repo blog, maka taruhlah dalam folder `content/post/images/[nama file markdown anda]`. Jika dimungkinkan anda memiliki gambar yang sama dan digunakan pada beberapa artikel anda yang berbeda, maka gunakanan folder `content/images/shared/`.
 
 #### Artikel terjemahan dari bahasa lain
 
