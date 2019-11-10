@@ -66,7 +66,7 @@ module.exports = {
         manifestPath: 'manifest.json',
         serviceWorkerPath: 'service-worker.js',
         shortName: SHORT_TITLE,
-        themeColor: '#41B883',
+        themeColor: '#E12A43',
         backgroundColor: '#ffffff',
         icon: './static/logo.png'
       }
