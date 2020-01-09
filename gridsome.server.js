@@ -1,11 +1,11 @@
-const slugify = require('slugify');
-const authors = require('./authors');
+const slugify = require('slugify')
+const authors = require('./authors')
 
-module.exports = function (api) {
+module.exports = function(api) {
   api.onCreateNode(options => {
     if (options.internal.typeName === 'Author') {
       options.slug = slugify(String(options.title).toLowerCase())
-      const author = authors.find(i => i.id === options.title);
+      const author = authors.find(i => i.id === options.title)
       if (author) {
         options.id = author.id
         options.name = author.name

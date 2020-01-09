@@ -3,10 +3,11 @@
 
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-const TITLE = 'Blog VuejsID';
-const SHORT_TITLE = 'VuejsID';
-const DESC = 'Sebuah blog dari VuejsID yang membahas berbagai hal mengenai Vue.js dan ekosistemnya';
-const SITE_URL = 'https://vuejsid-blog.netlify.com';
+const TITLE = 'Blog VuejsID'
+const SHORT_TITLE = 'VuejsID'
+const DESC =
+  'Sebuah blog dari VuejsID yang membahas berbagai hal mengenai Vue.js dan ekosistemnya'
+const SITE_URL = 'https://vuejsid-blog.netlify.com'
 
 module.exports = {
   siteName: TITLE,
@@ -35,7 +36,7 @@ module.exports = {
           author: {
             typeName: 'Author',
             create: true
-          },
+          }
         }
       }
     },
@@ -106,11 +107,11 @@ module.exports = {
         enforceTrailingSlashes: false,
         // Optional: a method that accepts a node and returns true (include) or false (exclude)
         // Example: only past-dated nodes: `filterNodes: (node) => node.date <= new Date()`
-        filterNodes: (node) => true,
+        filterNodes: node => true,
         // Optional: a method that accepts a node and returns an object for `Feed.addItem()`
         // See https://www.npmjs.com/package/feed#example for available properties
         // NOTE: `date` field MUST be a Javascript `Date` object
-        nodeToFeedItem: (node) => ({
+        nodeToFeedItem: node => ({
           title: node.title,
           date: node.date || new Date(),
           content: node.content
@@ -125,9 +126,7 @@ module.exports = {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
-      plugins: [
-        '@gridsome/remark-prismjs'
-      ]
+      plugins: ['@gridsome/remark-prismjs']
     }
   }
 }

@@ -8,6 +8,7 @@
       // Add dark / light detection that runs before Vue.js load. Borrowed from overreacted.io
       (function() {
         window.__onThemeChange = function() {};
+
         function setTheme(newTheme) {
           window.__theme = newTheme;
           preferredTheme = newTheme;
