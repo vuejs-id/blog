@@ -1,6 +1,6 @@
 # VuejsID Blog
 
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fvuejsid-blog.netlify.com%2F) ![Dependencies](https://img.shields.io/david/vuejs-id/blog.svg)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fblog.vuejs.id%2F) ![Dependencies](https://img.shields.io/david/vuejs-id/blog.svg)
 
 > Sebuah blog dari VuejsID yang membahas berbagai hal mengenai Vue.js dan ekosistemnya
 
