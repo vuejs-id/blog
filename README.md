@@ -1,6 +1,6 @@
 # VuejsID Blog
 
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fblog.vuejs.id%2F) ![Dependencies](https://img.shields.io/david/vuejs-id/blog.svg)
+![Build Project](https://github.com/vuejs-id/blog/workflows/Build%20Project/badge.svg) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fblog.vuejs.id%2F) ![Dependencies](https://img.shields.io/david/vuejs-id/blog.svg)
 
 > Sebuah blog dari VuejsID yang membahas berbagai hal mengenai Vue.js dan ekosistemnya
 
