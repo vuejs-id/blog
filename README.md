@@ -1,12 +1,12 @@
 # VuejsID Blog
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7afcf19c-5b2c-4b8c-9a0f-3cdb7b8dae6b/deploy-status)](https://app.netlify.com/sites/vuejsid-blog/deploys) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fvuejsid-blog.netlify.com%2F) ![Dependencies](https://img.shields.io/david/vuejs-id/blog.svg)
+![Build Project](https://github.com/vuejs-id/blog/workflows/Build%20Project/badge.svg) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fblog.vuejs.id%2F) ![Dependencies](https://img.shields.io/david/vuejs-id/blog.svg)
 
 > Sebuah blog dari VuejsID yang membahas berbagai hal mengenai Vue.js dan ekosistemnya
 
 ## Live
 
-- [https://vuejsid-blog.netlify.com/](https://vuejsid-blog.netlify.com/)
+- [https://blog.vuejs.id/](https://blog.vuejs.id/)
 
 ## Development
 
@@ -20,9 +20,9 @@ Kamu diperbolehkan menerbitkan tulisanmu di blog Vue.js ID 🎉 Berikut adalah b
 
 ### Cara Menerbitkan Tulisanmu
 
-Unuk *propose* tulisan yang ingin kamu terbitkan, kamu harus membuat [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) dimana nanti artikel kamu akan [disunting](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-collaborative-development-models) oleh **@vuejs-id/blogs-team**.
+Unuk _propose_ tulisan yang ingin kamu terbitkan, kamu harus membuat [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) dimana nanti artikel kamu akan [disunting](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-collaborative-development-models) oleh **@vuejs-id/blogs-team**.
 
-Tulisan akan diterbitkan jika **@vuejs-id/blogs-team** sudah sepakat. Untuk memudahkan pencarian *pull-request* / submisi artikel harap judul *pull-request* dituliskan seperti berikut.
+Tulisan akan diterbitkan jika **@vuejs-id/blogs-team** sudah sepakat. Untuk memudahkan pencarian _pull-request_ / submisi artikel harap judul _pull-request_ dituliskan seperti berikut.
 
 ```md
 Article Submission - [Judul Artikel yang Kamu Tulis]
@@ -36,7 +36,7 @@ Berikut adalah syarat - syarat yang **perlu** dipenuhi dan diperhatikan agar art
 - Jika artikel pernah diterbitkan pada publikasi lain sematkan link publikasi tersebut **pada paragraf akhir** artikel kamu **bukan diawal** tulisan artikel kamu
 - Artikel boleh merupakan translasi dari artikel berbahasa lain
 - Berbahasa Indonesia
-- Artikel tidak mengandung SARA, baik itu dalam konteks *jokes* atau apapun
+- Artikel tidak mengandung SARA, baik itu dalam konteks _jokes_ atau apapun
 
 Berikut untuk cara teknikal yang perlu diperhatikan saat menulis:
 
@@ -54,29 +54,30 @@ tags: ['Tutorial', 'Icon', 'SVG']
 series: false
 cover_image: ./images/membuat-vuejs-inline-svg-icon-component/cover.png
 canonical_url: false
-description: "Belajar langkah demi langkah membuat Vue.js inline SVG icon component"
+description: 'Belajar langkah demi langkah membuat Vue.js inline SVG icon component'
 ---
 ```
 
 1. **title**: berisi judul artikel
 2. **date**: tanggal penerbitan artikel
 3. **author**: berisi nama penulis (bila nama kalian belum pernah ada, maka tambahkan di file `authors.js`)
-5. **published**: bernilai `true` atau `false`, `true` berarti artikel yang Kamu kirim akan dipublikasi dan `false` berarti artikel yang Kamu kirim belum dipublikasi.
-6. **tags**: bernilai array yang berisi tag artikel
-7. **series**: bernilai `true` atau `false`, `true` berarti artikel yang Kamu kirim memiliki seri, misal _Pengetahuan Dasar Vue.js Bagian 1_, kemudian nanti Kamu akan mempublikasikan artikel baru bagian 2. Sedangkan `false` berarti artikel yang Kamu kirim tidak memiliki seri atau artikel tunggal.
-8. **cover_image**: berisi url gambar sebagai cover artikel. Sebagai contoh jika Kamu mengirimkan artikel dengan judul `Pengetahuan Dasar Vue.js Bagian 1`, maka gambar untuk artikel tersebut sebaiknya berada pada:
-`content/posts/images/pengetahuan-dasar-vuejs-bagian-1/cover.png` dan isi dari bagian `cover_image` adalah `./images/pengetahuan-dasar-vuejs-bagian-1/cover.png`
-9. **canonical_url**: bernilai `true` atau `false`, `true` berarti artikel yang Kamu kirim pernah diterbitkan di tempat lain dan `false` berarti belum pernah diterbitkan.
-10. **description**: berisi deskripsi singkat mengenai artikel yang Kamu kirimkan.
+4. **published**: bernilai `true` atau `false`, `true` berarti artikel yang Kamu kirim akan dipublikasi dan `false` berarti artikel yang Kamu kirim belum dipublikasi.
+5. **tags**: bernilai array yang berisi tag artikel
+6. **series**: bernilai `true` atau `false`, `true` berarti artikel yang Kamu kirim memiliki seri, misal _Pengetahuan Dasar Vue.js Bagian 1_, kemudian nanti Kamu akan mempublikasikan artikel baru bagian 2. Sedangkan `false` berarti artikel yang Kamu kirim tidak memiliki seri atau artikel tunggal.
+7. **cover_image**: berisi url gambar sebagai cover artikel. Sebagai contoh jika Kamu mengirimkan artikel dengan judul `Pengetahuan Dasar Vue.js Bagian 1`, maka gambar untuk artikel tersebut sebaiknya berada pada:
+   `content/posts/images/pengetahuan-dasar-vuejs-bagian-1/cover.png` dan isi dari bagian `cover_image` adalah `./images/pengetahuan-dasar-vuejs-bagian-1/cover.png`
+8. **canonical_url**: bernilai `true` atau `false`, `true` berarti artikel yang Kamu kirim pernah diterbitkan di tempat lain dan `false` berarti belum pernah diterbitkan.
+9. **description**: berisi deskripsi singkat mengenai artikel yang Kamu kirimkan.
 
 #### Image & File Markdown
 
-Tulisan ditulis pada folder `content/post`. dalam bentuk markdown, contoh dapat kamu lihat pada repo. Harap menamai file markdown-mu sama seperti judul, *lowercase* dan spasi digantikan dengan *-* (*dash*).
+Tulisan ditulis pada folder `content/post`. dalam bentuk markdown, contoh dapat kamu lihat pada repo. Harap menamai file markdown-mu sama seperti judul, _lowercase_ dan spasi digantikan dengan _-_ (_dash_).
 
 ```md
 ...
 title: Membuat Vue.js Inline SVG Icon Component
-___
+
+---
 
 nama file :
 

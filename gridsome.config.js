@@ -7,7 +7,7 @@ const TITLE = 'Blog VuejsID'
 const SHORT_TITLE = 'VuejsID'
 const DESC =
   'Sebuah blog dari VuejsID yang membahas berbagai hal mengenai Vue.js dan ekosistemnya'
-const SITE_URL = 'https://vuejsid-blog.netlify.com'
+const SITE_URL = 'https://blog.vuejs.id'
 
 module.exports = {
   siteName: TITLE,

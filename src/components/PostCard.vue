@@ -1,7 +1,15 @@
 <template>
-  <div class="post-card content-box" :class="{'post-card--has-poster' : post.poster}">
+  <div
+    class="post-card content-box"
+    :class="{ 'post-card--has-poster': post.poster }"
+  >
     <div class="post-card__header">
-      <g-image alt="Cover image" v-if="post.cover_image" class="post-card__image" :src="post.cover_image" />
+      <g-image
+        v-if="post.cover_image"
+        alt="Cover image"
+        class="post-card__image"
+        :src="post.cover_image"
+      />
     </div>
     <div class="post-card__content">
       <h2 class="post-card__title" v-html="post.title" />
@@ -22,9 +30,9 @@ import PostTags from '~/components/PostTags'
 export default {
   components: {
     PostMeta,
-    PostTags,
+    PostTags
   },
-  props: ['post'],
+  props: ['post']
 }
 </script>
 
@@ -56,10 +64,11 @@ export default {
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
+    box-shadow: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
   }
 
-  &__tags, &__meta {
+  &__tags,
+  &__meta {
     z-index: 1;
     position: relative;
   }
@@ -70,7 +79,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.0;
+    opacity: 0;
     overflow: hidden;
     text-indent: -9999px;
     z-index: 0;
