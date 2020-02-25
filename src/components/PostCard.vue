@@ -32,7 +32,12 @@ export default {
     PostMeta,
     PostTags
   },
-  props: ['post']
+  props: {
+    post: {
+      type: Object,
+      default: () => {}
+    }
+  }
 }
 </script>
 

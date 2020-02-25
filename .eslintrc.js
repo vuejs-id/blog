@@ -17,9 +17,10 @@ module.exports = {
     }
   },
   rules: {
-    'no-console': 'off',
-    'no-param-reassign': 'off',
-    'import/no-extraneous-dependencies': 'off',
+    'no-console': 1,
+    'no-param-reassign': 0,
+    'vue/no-v-html': 0,
+    'import/no-extraneous-dependencies': 0,
     'prettier/prettier': 'error'
   }
 }

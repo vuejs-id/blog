@@ -1,12 +1,12 @@
 <template>
-  <div class="post-author" v-if="post.author">
-    <span class="tooltiptext" v-if="post.author.title">
+  <div v-if="post.author" class="post-author">
+    <span v-if="post.author.title" class="tooltiptext">
       {{ post.author.title }}
     </span>
     <g-link class="post-author__link" :to="post.author.path">
       <g-image
-        alt="Author"
         v-if="post.author.avatar"
+        alt="Author"
         class="post-author__avatar"
         :src="post.author.avatar"
       />
@@ -16,8 +16,13 @@
 
 <script>
 export default {
-  props: ["post"]
-};
+  props: {
+    post: {
+      type: Object,
+      default: () => {}
+    }
+  }
+}
 </script>
 
 <style lang="scss">

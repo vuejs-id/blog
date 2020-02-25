@@ -5,7 +5,7 @@ author: mazipan
 published: true
 tags: ['Tutorial', 'Dasar', 'Serial']
 series: true
-cover_image: ./images/shared/vuejs-logo.jpeg
+cover_image: ./images/shared/vuejs-id-logo.jpeg
 canonical_url: false
 description: Berbagai pengetahuan dasar yang perlu Anda ketahui di Vue.js.
 ---
@@ -14,9 +14,9 @@ description: Berbagai pengetahuan dasar yang perlu Anda ketahui di Vue.js.
 
 Artikel ini merupakan seri lanjutan dari artikel yang sebelumnya sudah di publikasikan, baca semua seri Pengetahuan Dasar Vue.js:
 
-  1. [Pengetahuan Dasar Vue.js - Bagian 1](/pengetahuan-dasar-vuejs-bagian-1)
-  2. [Pengetahuan Dasar Vue.js - Bagian 2](/pengetahuan-dasar-vuejs-bagian-2)
-  3. [Pengetahuan Dasar Vue.js - Bagian 3](/pengetahuan-dasar-vuejs-bagian-3) **(Anda di sini)**
+1. [Pengetahuan Dasar Vue.js - Bagian 1](/pengetahuan-dasar-vuejs-bagian-1)
+2. [Pengetahuan Dasar Vue.js - Bagian 2](/pengetahuan-dasar-vuejs-bagian-2)
+3. [Pengetahuan Dasar Vue.js - Bagian 3](/pengetahuan-dasar-vuejs-bagian-3) **(Anda di sini)**
 
 ---
 
@@ -46,7 +46,7 @@ _Filter_ harus mengembalikan nilai yang merupakan hasil dari data yang telah di 
 new Vue({
   // ...
   filters: {
-    capitalize: function (value) {
+    capitalize: function(value) {
       if (!value) return ''
       value = value.toString()
       return value.chartAt(0).toUpperCase() + value.slice(1)
@@ -69,9 +69,12 @@ var vm = new Vue({
   },
   computed: {
     // a computed getter
-    reversedMessage: function () {
+    reversedMessage: function() {
       // `this` points to the vm instance
-      return this.message.split('').reverse().join('')
+      return this.message
+        .split('')
+        .reverse()
+        .join('')
     }
   }
 })
@@ -92,9 +95,8 @@ var vm = new Vue({
   },
   watch: {
     // whenever question changes, this function will run
-    question: function (newQuestion) {
-      this.answer = 'Waiting for you to stop typing...',
-      this.getAnswer()
+    question: function(newQuestion) {
+      ;(this.answer = 'Waiting for you to stop typing...'), this.getAnswer()
     }
   }
 })

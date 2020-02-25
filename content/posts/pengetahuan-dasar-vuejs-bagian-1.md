@@ -5,7 +5,7 @@ author: mazipan
 published: true
 tags: ['Tutorial', 'Dasar', 'Serial']
 series: true
-cover_image: ./images/shared/vuejs-logo.jpeg
+cover_image: ./images/shared/vuejs-id-logo.jpeg
 canonical_url: false
 description: Berbagai pengetahuan dasar yang perlu Anda ketahui di Vue.js.
 ---
@@ -14,9 +14,9 @@ description: Berbagai pengetahuan dasar yang perlu Anda ketahui di Vue.js.
 
 Artikel ini merupakan seri lanjutan dari artikel yang sebelumnya sudah di publikasikan, baca semua seri Pengetahuan Dasar Vue.js:
 
-  1. [Pengetahuan Dasar Vue.js - Bagian 1](/pengetahuan-dasar-vuejs-bagian-1) **(Anda di sini)**
-  2. Pengetahuan Dasar Vue.js - Bagian 2
-  3. Pengetahuan Dasar Vue.js - Bagian 3
+1. [Pengetahuan Dasar Vue.js - Bagian 1](/pengetahuan-dasar-vuejs-bagian-1) **(Anda di sini)**
+2. Pengetahuan Dasar Vue.js - Bagian 2
+3. Pengetahuan Dasar Vue.js - Bagian 3
 
 ---
 
@@ -65,8 +65,8 @@ Vue.js menggunakan syntax `{{ }}` seperti terlihat pada gambar diatas, dengan sy
 ```html
 <div id="app-2">
   <span v-bind:title="message">
-    Hover your mouse over me for a few seconds
-    to see my dynamically bound title!
+    Hover your mouse over me for a few seconds to see my dynamically bound
+    title!
   </span>
 </div>
 ```
@@ -82,7 +82,7 @@ Di Vue.js kita menggunakan `v-model` untuk melakukan two way binding yang biasan
 ```html
 <div id="app-3">
   <p>{{ message }}</p>
-  <input v-model="message">
+  <input v-model="message" />
 </div>
 ```
 
@@ -101,7 +101,7 @@ Untuk memanggil suatu event yang telah kita buat di Javascript, Vue.js menggunak
 new Vue({
   el: '#app-4',
   methods: {
-    say: function (message) {
+    say: function(message) {
       alert(message)
     }
   }

@@ -5,7 +5,7 @@ author: mazipan
 published: true
 tags: ['Tutorial', 'Dasar', 'Serial']
 series: true
-cover_image: ./images/shared/vuejs-logo.jpeg
+cover_image: ./images/shared/vuejs-id-logo.jpeg
 canonical_url: false
 description: Berbagai pengetahuan dasar yang perlu Anda ketahui di Vue.js.
 ---
@@ -14,9 +14,9 @@ description: Berbagai pengetahuan dasar yang perlu Anda ketahui di Vue.js.
 
 Artikel ini merupakan seri lanjutan dari artikel yang sebelumnya sudah di publikasikan, baca semua seri Pengetahuan Dasar Vue.js:
 
-  1. [Pengetahuan Dasar Vue.js - Bagian 1](/pengetahuan-dasar-vuejs-bagian-1)
-  2. [Pengetahuan Dasar Vue.js - Bagian 2](/pengetahuan-dasar-vuejs-bagian-2) **(Anda di sini)**
-  3. Pengetahuan Dasar Vue.js - Bagian 3
+1. [Pengetahuan Dasar Vue.js - Bagian 1](/pengetahuan-dasar-vuejs-bagian-1)
+2. [Pengetahuan Dasar Vue.js - Bagian 2](/pengetahuan-dasar-vuejs-bagian-2) **(Anda di sini)**
+3. Pengetahuan Dasar Vue.js - Bagian 3
 
 ---
 
@@ -32,20 +32,20 @@ Vue.js mengenalkan _single file component_ dimana kita bisa membuat satu file be
 </template>
 
 <script>
-module.exports = {
-  data: function () {
-    return {
-      greeting: 'Hello'
+  module.exports = {
+    data: function() {
+      return {
+        greeting: 'Hello'
+      }
     }
   }
-}
 </script>
 
 <style scoped>
-p {
-  font-size: 2em;
-  text-align: center;
-}
+  p {
+    font-size: 2em;
+    text-align: center;
+  }
 </style>
 ```
 
@@ -81,7 +81,7 @@ vm.$data === data // => true
 
 // must use function when in Vue.extend()
 var Component = Vue.extend({
-  data: function () {
+  data: function() {
     return { a: 1 }
   }
 })
@@ -97,7 +97,7 @@ Pembuatan methods bisa dilihat dalam gambar berikut :
 var vm = new Vue({
   data: { a: 1 },
   methods: {
-    plus: function () {
+    plus: function() {
       this.a++
     }
   }
@@ -129,7 +129,7 @@ Vue.component('props-demo-advanced', {
       type: Number,
       default: 0,
       required: true,
-      validator: function (value) {
+      validator: function(value) {
         return value >= 0
       }
     }

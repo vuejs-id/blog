@@ -5,7 +5,11 @@
     </h1>
 
     <div class="posts">
-      <PostCard v-for="edge in $page.author.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
+      <PostCard
+        v-for="edge in $page.author.belongsTo.edges"
+        :key="edge.node.id"
+        :post="edge.node"
+      />
     </div>
   </Layout>
 </template>
@@ -33,12 +37,10 @@ query Author ($id: ID!) {
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
 
 export default {
   components: {
-    Author,
     PostCard
   },
   metaInfo: {
@@ -47,7 +49,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-
-</style>
-
+<style lang="scss"></style>

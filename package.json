@@ -5,7 +5,8 @@
     "build": "gridsome build",
     "dev": "gridsome develop",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "lint:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "0.1.0",
@@ -43,7 +44,7 @@
     }
   },
   "lint-staged": {
-    "*.{md,js,vue}": [
+    "*.{js,vue}": [
       "prettier --write",
       "eslint --fix",
       "git add"
