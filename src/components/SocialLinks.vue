@@ -1,7 +1,7 @@
 <template>
   <div class="social__links">
     <a
-      href="https://www.facebook.com/groups/1675298779418239/"
+      href="https://www.facebook.com/hamknw"
       title="Facebook"
     >
       <svg
@@ -21,24 +21,8 @@
         ></path>
       </svg>
     </a>
-    <a href="https://t.me/vuejsindonesia" title="Telegram">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-send"
-      >
-        <line x1="22" y1="2" x2="11" y2="13"></line>
-        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-      </svg>
-    </a>
-    <a href="https://github.com/vuejs-id" title="Github">
+    
+    <a href="https://github.com/devsourceid/iamvue/" title="Github">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -56,7 +40,7 @@
         ></path>
       </svg>
     </a>
-    <a href="https://vuejs.id/" title="Website">
+    <a href="https://iamvue/" title="Website">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -76,7 +60,7 @@
         ></path>
       </svg>
     </a>
-    <a href="https://docs.vuejs.id/" title="Docs">
+    <a href="/sitemap.xml" title="Docs">
       <svg
         viewBox="0 0 24 24"
         width="24"
