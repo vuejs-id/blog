@@ -3,7 +3,7 @@
     <g-image
       alt="Author image"
       class="author__image"
-      src="~/assets/images/vuejs-id.png"
+      src="~/assets/images/logo.png"
       width="180"
       height="180"
       blur="5"
