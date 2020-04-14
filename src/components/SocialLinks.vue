@@ -60,7 +60,7 @@
         ></path>
       </svg>
     </a>
-    <a href="/sitemap.xml" title="Docs">
+    <a href="https://www.iamvue.com/feed.xml" title="Docs">
       <svg
         viewBox="0 0 24 24"
         width="24"
