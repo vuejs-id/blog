@@ -22,9 +22,6 @@ module.exports = {
 
   plugins: [
     {
-      use: "gridsome-plugin-disqus"
-    },
-    {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
