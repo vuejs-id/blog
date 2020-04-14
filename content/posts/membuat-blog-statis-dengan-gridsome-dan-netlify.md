@@ -5,7 +5,7 @@ author: iamvue
 published: true
 tags: ['vuejs', 'netlify', 'static blog']
 series: false
-cover_image: ./images/membuat-blog-statis-dengan-gridsome-dan-netlify/cover.jpg
+cover_image: ./images/membuat-blog-statis-dengan-gridsome-dan-netlify/vuejs-netlify.png
 canonical_url: false
 description: 'Cara mudah membuat static blog menggunakan Gridsome dan melakukan Deploy ke Netlify'
 ---
@@ -22,7 +22,7 @@ Gridsome menjadi alternatif yang baik bagi kamu yang ingin membuat blog statis a
 
 ## Kenapa memilih Gridsome?
 
-![Alur kerja Gridsome](./images/how-it-works.webp)
+![Alur kerja Gridsome](./images/membuat-blog-statis-dengan-gridsome-dan-netlify/how-it-works.webp)
 
 Ada banyak static site generator, lalu kneapa memilih Gridsome? Gridsome merupakan spesialis dalam bidang static site generator, dengan berbagai fitur built-in yang kita butuhkan untuk membuat blog statis seperti otomatis melakukan_code-splitting_, melakukan kompresi gambar, mendukung PWA secara penuh, dan tentunya sangat bersahabat dengan SEO.
 
@@ -59,11 +59,11 @@ Untuk membuat Gridsome dan melakukan Deploy langsung ke Netlify sangatlah mudah,
 
 Selanjutnya buka halaman **[Gridsome Blog Starter](https://gridsome.org/starters/gridsome-blog-starter/)**
 
-![Gridsome STarter Blog](./images/gridsome-starter-blog.png)
+![Gridsome STarter Blog](./images/membuat-blog-statis-dengan-gridsome-dan-netlify/gridsome-starter-blog.png)
 
 Klik tombol **Install Now** yang ada pada pojok kanan atas, lalu pilih **Deploy to Netlify**.
 
-![Deploy to Netlify](./images/deploy-to-netlify.png)
+![Deploy to Netlify](./images/membuat-blog-statis-dengan-gridsome-dan-netlify/deploy-to-netlify.png)
 
 Lakukan sedikit konfigurasi dengan menambahkan perintah `gridsome build` pada kolom build command. Dan tambahkan direktori `dist` pada kolom publish directory.
 
