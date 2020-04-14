@@ -1,0 +1,194 @@
+---
+title: 86+ Project Open Source yang Menggunakan Vue.js
+date: 2020-04-14
+author: iamvue
+published: true
+tags: ['Vuejs', 'Open Source']
+series: false
+cover_image: ./images/project-open-source-menggunakan-vuejs/vue-js-project.png
+canonical_url: false
+description: 'Kumpulan project open source yang menggunakan Vue.Js'
+---
+
+Halo, selamat datang.
+
+Kali ini kita akan membagikan sekumpulan project open source berbasis Vue.js yang mungkin bisa kalian jadikan referensi. Yuk disimak.
+
+## 86 Project Open Source Berbasis Vue.js
+
+- [PageKit](https://github.com/pagekit/pagekit) - CMS Modular yang ringan dibangun dengan komponen Symfony dan Vue.js.
+- [npmcharts.com](https://github.com/cheapsteak/npmcharts.com) - Compare npm packages and spot download trends.
+- [Koel](https://github.com/phanan/koel) - Personal music streaming.
+- [Raven Reader](https://github.com/mrgodhani/raven-reader) - Simple RSS Reader yang dibuat dengan Electron dan Vue.js.
+- [Gokotta](https://github.com/Zhangdroid/Gokotta) - Music Player sederhana yang dibangun dengan Electron dan Vue.
+- [CoPilot](https://github.com/misterGF/CoPilot) - Admin panel berbasis AdminLTE dengan integrasi Vue.js.
+- [Retrospectify](https://github.com/pepf/retrospectify) - Tool note sederhana untuk retrospeksi bersama tim.
+- [jade-press](https://github.com/jade-press/jade-press) - CMS berbasis Mongodb, Nodejs, Koa, Vue, dll.
+- [astralapp](https://github.com/astralapp/astral) - Mengorganisir bintang di GirHub dnegan mudah.
+- [EME](https://github.com/egoist/eme) - Markdown Editor elegan.
+- [Github-explorer](https://github.com/SidKwok/github-explorer) - SPA yang bisa membantu kita mengeksplore github dengan cara yang lebih baik.
+- [Hotel](https://github.com/typicode/hotel) - Mulai server lokal dari browserdan dapatkan domain lokal dalam hitungan detik.
+- [Surfbird](https://github.com/surfbirdapp/surfbird) - Twitter client yang dibuat dengan teknologi web yang modern.
+- [Approach0](https://github.com/approach0/search-engine) - Math-aware search engine.
+- [Flox](https://github.com/devfake/flox) - Self Hosted Movie, Series dan Anime.
+- [JavaScript Guessing Game](https://github.com/samiheikki/javascript-guessing-game) - Game untuk mengidentifikasi Tools JavaScript dan Libraries.
+- [vue-ghpages-blog](https://github.com/viko16/vue-ghpages-blog) - Blog berbasis GitHub pages dengan Vue.js 2 + Webpack 2.
+- [Vuedo](https://github.com/Vuedo/vuedo) - Blog platform, dibangun dengan Laravel dan Vue.js.
+- [vue-music163](https://github.com/pluto1114/vue-music163) - Vue.js project untuk musik.
+- [Tomato5](https://github.com/zhangxin840/tomato5) - Tool kolaborasi tim yang realtime.
+- [Web Learn](https://github.com/freearhey/web-learn) - Layanan yang menyediakan akses mudah ke ribuan tutorial video tentang pengembangan dan pemrograman web.
+- [ExcelJSON](https://github.com/palerdot/exceljson) - Tool untuk mengkonversi CSV, TSV ke JSON dan sebaliknya.
+- [Materialize-blog](https://github.com/forehalo/materialize-blog) - Material blog yang dibangun dengan Laravel5.3 dan Vue2.x.
+- [VueComponentGenerator](https://github.com/ChangJoo-Park/vue-component-generator) - Generate file komponen Vue di browser
+- [SDR News](https://github.com/super-dev/SDR-News) - RSS News untuk web designer dan developer dari berbagai sumber (Reddit, Hacker News dan Prominent Blogs).
+- [PJ Blog](https://github.com/jcc/blog) - Open source blog yang dibangun dengan Laravel dan Vue.js.
+- [Lulumi-browser](https://github.com/qazbnm456/lulumi-browser) - Web browser ringan yang dibangun dengan Vue.js 2 dan Electron.
+- [vue-wordpress-pwa](https://github.com/bstavroulakis/vue-wordpress-pwa)
+- [OpenAPI 3 viewer](https://github.com/koumoul-dev/openapi-viewer) - Jelajahi dan test REST API dengan spesifikasi OpenAPI 3.0
+- [Stacer](https://github.com/oguzhaninan/Stacer) - Linux System Optimizer dan Monitoring
+- [Distrochooser.de](https://github.com/cmllr/distrochooser) - Guide untuk penguna Linux pemula
+- [Buka](https://github.com/oguzhaninan/Buka) - EBook Management
+- [Docute](https://github.com/egoist/docute) - Framework untuk menulis dokumentasi
+- [pm86](https://github.com/ericjjj/pm86) - Manajer Produksi untuk aplikasi Node.js
+- [vms](https://github.com/ericjjj/vms) - Vue.js 2.0 Management System
+- [nativescript-vue](https://github.com/rigor789/nativescript-vue) - Implementasi Vue.js dengan NativeScript.
+- [piper](https://github.com/fireyy/piper) - Drag-and-drop Website builder berbasis Vue.
+- [mmf-blog-vue2](https://github.com/lincenying/mmf-blog-vue2) - Blog berbasis Vue2(Vue-router, Vuex) dan Webpack2.
+- [Media Manager](https://github.com/iutbay/mm) - Web File Manager.
+- [dyu/bookmarks](https://github.com/dyu/bookmarks) - Self-hosted bookmarking app yang dibangun dengan Vue2.1.x.
+- [JSON Schema Editor](https://github.com/tangram-js/json-schema-editor) - Editor untuk JSON schema. Dibangun dengan Vue.js 2 dan Firebase.
+- [npm-stats](https://github.com/apertureless/npm-stats) - Statistik Dashboard untuk NPM Package Download
+- [vue2-admin-lte](https://github.com/devjin0617/vue2-admin-lte) - Project yang mengkonversi AdminLTE ke Vuejs (v2.x).
+- [Dockeron](https://github.com/dockeron/dockeron) - Project yang dibangun dengan Electron + Vue.js
+- [Flamme](https://github.com/alicin/flamme) - Tinder desktop client yang dibangun dengan Electron and Vue.js untuk tujuan pembelajaran
+- [Goldfish](https://github.com/Caiyeon/goldfish) - HashiCorp Vault UI yang dibangun dengan VueJS, Golang, dan Bulma CSS
+- [promptie](https://github.com/alicin/promptie) - Framework yang dibangun dengan Vue.js untuk membuat command-line interface di web browser.
+- [Hare](https://github.com/clarkdo/hare) - Boilerplate berbasis Vue.js 2.x, Koa 2.x, Element-UI dan Nuxt.js
+- [Paper-Dashboard](https://github.com/cristijora/vue-paper-dashboard) - Creative Tim Paper Dashboard yang dibuat dengan Vue
+- [AdminLTE-VueJS2](https://github.com/otezz/AdminLTE-VueJS2) - Open source project yang mengimplementasikan VueJS (v2.x) di AdminLTE.
+- [Material Dashboard](https://github.com/lucduong/vue-material-dashboard) - Creative Tim Material Dashboard yang dibuat dengan Vue
+- [Explore-Github](https://github.com/mazipan/explore-github) - VueJS 2 Github Explorer dengan API v3
+- [CoreUI](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template) - Open Source Admin Template yang dibuat dengan Vue.js
+- [ChuckNorris](https://github.com/mazipan/chucknorris) - Chuck Norris Jokes Generator dibangun dengan VueJS + api.chucknorris.io
+- [LeafPlayer](https://github.com/paulschwoerer/leafplayer) - Music streaming server yang ringan.
+- [JSON Editor](https://github.com/tangram-js/json-editor) - Schema-aware JSON editor. Dibangun dengan Vue2.
+- [Voten](https://github.com/voten-co/voten) - Platform seperti Reddit yang dibanun dengan Vue2 dan Laravel.
+- [News Weaver](https://github.com/Rud156/News-Weaver) - RSS Reader/Aggregator berbasis web yang dibangun dengan VueJS dan VuetifyJS
+- [Wake Up Billie Joe!](https://wakeupbilliejoe.com) - Website countdown yang dibuat berdasarkan lagu Green Day yang berjudul Wake me up when September Ends. Dibuat dengan Vue dan Firebase.
+- [Astrum](https://github.com/NoDivide/astrum) - Pattern library ringan yang didesain untuk project web.
+- [vue2-pwa-vision](https://github.com/aofdev/vue-pwa-vision) - Face Detection Google Cloud Vision dibangun dengan Vue2 + Vuetify + Progressive Web App
+- [vue2-pwa-rekognition](https://github.com/aofdev/vue-pwa-rekognition) - Face Detection Amazon Rekognition dibuat dengan Vue2 + Vuetify + Progressive Web App
+- [AmmoBin.ca](https://github.com/ammobinDOTca/ammobin-client) - Meta pencarian untuk harga amunisi online di Kanada
+- [SPA-asp.net-api-vuejs-](https://github.com/mubaidr/SPA-asp.net-api-vuejs-) - Vue.js single page application untuk Task Management & Messaging mengunakan ASP .NET Webapi 2 dan SQL server
+- [Book-Trading-Club](https://github.com/mubaidr/Book-Trading-Club) - Tukar atau pinjamkan buku dengan pembaca buku lain di daerahmu. Dibangun menggunakan Nodejs dan Vuejs2
+- [vuejs-extension-pack vscode](https://github.com/mubaidr/vuejs-extension-pack) - Ekstensi VS Code untuk pengembangan Vue.js.
+- [Wiki.js](https://github.com/Requarks/wiki) - Modern dan powerful wiki app yang dibuat dengan NodeJS, Git dan Markdown
+- [vue-pwa-speech](https://github.com/aofdev/vue-pwa-speech) - Speech to text dengan Google Cloud Speech on Vue2 + Vuetify + Progressive Web App
+- [vue-speech-streaming](https://github.com/aofdev/vue-speech-streaming) - Speech To Text dengan Google Cloud Speech + socket.io realtime di Aplikasi Web Progresif
+- [My Animation List](https://github.com/limichange/my-animation-list) - Tool untuk mendapatkan berbagai animasi CSS
+- [vue-input-streaming](https://github.com/aofdev/vue-input-streaming) - TextInput Streaming RealTime Dan Penyiaran Data Binding Dua Arah dengan Pusher
+- [TidyTab](https://github.com/eggplanetio/tidytab) - Ekstensi Chrome untuk merapikan tab.
+- [peregrine-cms](https://github.com/headwirecom/peregrine-cms) - Vue.js dan  Apache Sling based head-optional CMS
+- [concept-to-clinic](https://github.com/concept-to-clinic/concept-to-clinic) - Project prediksi kanker paru-paru dengan interdace Vue.js
+- [grid-awesome](https://github.com/louisbourque/grid-awesome) - Boilerplate css untuk layout grid menggunakan css display: grid; property.
+- [Light Bootstrap Dashboard](https://github.com/creativetimofficial/vue-light-bootstrap-dashboard) - Creative Tim Light Bootstrap Dashboard yang dibuat dengan Vue
+- [Hubaga](https://github.com/picocodes/hubaga) - WordPress eCommerce plugin untuk developer dan  digital shop.
+- [vue-webpack-buefy](https://github.com/ndro/vue-webpack-buefy) - Vue.js starter pack dengan Webpack dan Buefy
+- [Coypu](https://github.com/bkzl/coypu) - Plan mingguan seperti text editor
+- [core-server](https://github.com/skyhark-projects/core-server) - Kerangka kerja VueJ yang sangat skalabel dengan sistem API terintegrasi, dan beberapa fitur canggih.
+- [discord-logo](https://github.com/NNTin/discord-logo) - Discord logo generator berbasis SVG yang dibuat dengan Vue.js. ([Github Page](https://nntin.github.io/discord-logo/))
+- [node-vue-template](https://github.com/mubaidr/node-vue-template) - Template pemula untuk membuat aplikasi lengkap menggunakan Node.js (API) dan Vue.js (SPA) dengan beberapa paket dan konfigurasi yang disertakan untuk membantu memulai pengembangan dengan cepat.
+- [vue-storefront](https://github.com/DivanteLtd/vue-storefront) - Vue.js Storefront - PWA untuk eCommerce. 100% offline, platform agnostic, headless, dan dukungan untuk Magento2.
+- [fd-vue](https://github.com/freedomotic/fd-vue-webapp) - Vue.js client untuk IoT framework
+- [wildfire](https://github.com/cheng-kang/wildfire) - A drop-in replacement for other comment plug-ins.
+- [Ride Receipts](https://github.com/ridereceipts/ridereceipts) - Aplikasi desktop otomatisasi sederhana untuk mengunduh dan mengatur faktur pajak dari Uber dan Lyft.
+- [vue-chrome-extension-boilerplate](https://github.com/mubaidr/vue-chrome-extension-boilerplate) - Boilerplate untuk ekstensi Chrome menggunakan Vue.js dan Webpack
+- [TimeMark](https://github.com/MarsZone/TimeMark) - Time manager.
+- [Laravel Enso](https://github.com/laravel-enso/enso) - SPA Admin Panel yang dibangun dengan Bulma, VueJS dan Laravel.
+- [Code Notes](https://github.com/lauthieb/code-notes) - Code snippet manager simple untuk developer yang dibangun dengan Electron & Vue.js.
+- [Pomotroid](https://github.com/Splode/pomotroid) - Timer Pomodoro sederhana, dan dapat disesuaikan dengan mudah.
+- [XMR Miner](https://github.com/bradoyler/xmr-miner) - Cryptocurrency (XMR) mining app, dibangun dengan Vue.js dan visualisasi dengan D3
+- [XMR Paper](https://github.com/bradoyler/xmr-paper) - Monero wallet generator, dibangun dengan Vue.js
+- [JoyProxy](https://github.com/sh0cked/joy-proxy) - Ekstensi Chrome untuk menangani pengaturan proxy
+- [activity-automation](https://github.com/mubaidr/activity-automation) - Kelola aktivitas harian dan dapatkan laporan tepat waktu.
+- [jsettlers-web](https://github.com/generateui/jsettlers-web) Permainan papan populer Jerman untuk membangun heks, permukiman, kota, jalan dengan sumber daya yang diperoleh
+- [Tamiat CMS](https://github.com/tamiat/tamiat) - Tamiat adalah CMS  yang fokus pada  front-end, menggunakan Vue.JS sebagai frontend dan terintegrasi dengan Firebase untuk fungsionalitas backend.
+- [vuegg](https://github.com/vuegg/vuegg) - vue GUI generator: Buat mockup dan kode dalam sekali jalan!
+- [Podlove Web Player](https://github.com/podlove/podlove-web-player) - Pemutar audio berbasis HTML5
+- [Leo Vue](https://github.com/kaleguy/leovue) - IDE untuk membuat aplikasi web dengan dukungan komponen Vue untuk konten.
+- [Deezer-Vue](https://sh0cked.github.io/deezer-vue/) - Deezer client yang dibangun dengan Vue\Vuex
+- [Vuep.run](https://vuep.run) - Online SFC editor untuk Vue
+- [V·oogle](https://github.com/VeryWow/v-oogle) - Google.com, reVued
+- [Pomidorus](https://github.com/tatyshev/pomidorus) - Pomodoro time tracker dibangund engan Vue dan D3
+- [Hubble](https://hubble.js.org) - Jelajahi riwayat GitHub Stars'
+- [Vuepress](https://vuepress.vuejs.org/) - Static site generator minimalis berbasis Vue
+- [Socialhome](https://github.com/jaywink/socialhome) - Profile builder dengan fitur jejaring sosial
+- [GenVue](https://github.com/herbat73/GenVue) - Aplikasi web yang memungkinkan pengguna mengunggah dan berbagi file pribadi. Dibangun dengan Vue.js, Vuetifyjs dan NetCore WebAPI
+- [vue-array](https://github.com/BlackHole1/vue-array) - Operasi objek array di bawah Vue, Operasi objek array di bawah Vue Gunakan paket ini untuk memanipulasi array. Vue dapat memonitor perubahan dalam array
+- [Laqu-l](https://github.com/laqul/laqul) - Kit starter aplikasi lengkap dengan Quasar Framework, Graphend API backend dengan otentikasi OAUTH 2.0, siap Firebase, kemampuan multi bahasa dan banyak lagi.
+- [Protovue](https://github.com/v1Labs/protovue) - Pustaka komponen prototipe yang membantu develpor mengatur tata letak aplikasi dengan cepat.
+- [Chattier](https://github.com/raniesantos/chattier) - Jejaring sosial SPA dibangun dengan Laravel 5.6, Vue.js 2, dan Bulma (komponen Buefy + tema Bulmaswatch). Juga menggunakan otentikasi JWT.
+- [chrome-ribbon-reminder](https://github.com/johndatserakis/chrome-ribbon-reminder) - Ekstensi Chrome ditulis menggunakan Vue dan Async/Await.
+- [Faviator](https://www.faviator.xyz/) - Favicon generator sederhana.
+- [Modular Genealogy](https://github.com/modularsoftware/genealogy) - Sistem manajemen silsilah/silsilah keluarga menggunakan Laravel 5.7, Vue.js 2.5 dan berbagai komponen. Bekerja dalam proses.
+- [Minimal Notes](https://github.com/vladocar/Minimal-Notes) - Aplikasi web yang dibangun dengan Vue.js
+- [Roast](https://github.com/serversideup/roastandbrew) Aplikasi yang dibangun untuk membantu penggemar kopi menemukan secangkir kopi sambil mempelajari tentang Laravel + Vue.js.
+- [Stack Edit](https://github.com/benweet/stackedit/) - In-browser Markdown editor
+- [Bael Blog Template](https://bael-theme.jake101.com/) - ATemplate blog statis menggunakan Netlify CMS untuk backend dan Netlify untuk hosting.
+- [Buefy Shop](https://buefy-shop.now.sh/) Toko simple, open source, dibangun dengan Nuxt, Stripe, Firebase, Bulma dan fungsi yang Serverless.
+- [sysmon](https://github.com/Lt0/sysmon) Monitor sistem mode B / S untuk Linux.
+- [eth-vue](https://github.com/DOkwufulueze/eth-vue) Menyediakan semua yang dibutuhkan untuk membuat Aplikasi Ethereum dengan cepat dan memiliki fitur otentikasi dengan Vue.js, termasuk konfigurasi untuk penyebaranke Jaringan Ropsten.
+- [Nippon-color](https://github.com/ssshooter/nippon-color) Terinspirasi oleh nipponcolors dot com. Ini adalah PWA build nippon-color dengan vue-cli 3.
+- [Saleina CMS](https://github.com/saleina/SaleinaCMS) Sistem manajemen konten situs statis dibangun dengan vue menggunakan git sebagai backend.
+- [Vuido](https://github.com/mimecorg/vuido) Kerangka kerja untuk membuat aplikasi desktop.  Dapat dijalankan di Windows, OS X dan Linux, menggunakan komponen GUI.
+- [YouGet](https://github.com/ahmetzeybek/YouGet) YouTube Video/Audio/Subtitle Downloader + Cutter
+- [Vue Pug Stylus](https://github.com/wesssel/vue-pug-stylus) Vue + Pug + Stylus boilerplate
+- [Crypto News](https://github.com/Bartozzz/crypto-news) Mengonversi cryptocurrency, melihat berita terbaru dan nilai tukar untuk setiap ICO - semua data dari dunia cryptocurrency di satu tempat.
+- [Epiboard](https://github.com/Alexays/Epiboard) Ekstensi halaman tab baru dengan desain material dan fitur yang bermanfaat
+- [zhudyos/duic](https://github.com/zhudyos/duic) Pusat konfigurasi terdistribusi
+- [Vuemmerce](https://github.com/ivanlori/Vuemmerce) Template ecommerce gratis dibuat dengan framework Vue.js dan Bulma
+- [Nucleus](https://github.com/alirizaadiyahsi/Nucleus) Arsitektur layered ASP.NET Core API dan template startup aplikasi klien Vuejs
+- [Carpoolear](https://github.com/STS-Rosario/carpoolear) Frontend Vue.js open source (aplikasi seluler dan cordova) untuk aplikasi carpooling argentinian: [Carpoolear](https://carpoolear.com.ar)
+- [Statusfy](https://github.com/bazzite/statusfy): Statusfy adalah Sistem Halaman Status, mudah digunakan dan sepenuhnya Open Source.
+- [DynamoDb-GUI-Client](https://github.com/Arattian/DynamoDb-GUI-Client): Cross-platform GUI client untuk DynamoDb
+- [RosterWebApp](https://github.com/SnakeyHips/RosterWebApp) Aplikasi web rostering open source yang memungkinkan rostering karyawan/tim untuk sesi kerja dan fitur lainnya.
+- [Vue E-Store Templet](https://github.com/rash0/Vue-Ecom) - Template ecommerce yang dibangun dengan Vue/Vuex/Vue-router dan Bootstrap4.
+- [Kitty Ipsum](https://kitty-ipsum.com) - Membuat lorem ipsum terdiri dari "Meow" dalam bahasa yang berbeda.
+- [Git Superstar](https://git-superstar.firebaseapp.com) - Mneghitung git stars dan top repository.
+- [Twill](https://twill.io) - Open source CMS toolkit untuk Laravel
+- [MATH_BOT](https://mathbot.com) - Belajar matematika dengan memprogram robot.
+- [Vue Crossword](https://github.com/Piterden/vue-crossword) - Pembuat teka-teki silang dan front-end filler berbasis Vue.js. Dibangun dengan [CodeSandbox](https://codesandbox.io/s/github/Piterden/vue-crossword/tree/master/).
+- [Vue Org Chart](https://github.com/Hoogkamer/vue-org-chart) - Kelola dan publikasikan bagan organisasi interaktif Anda (orgchart), gratis dan tidak perlu server web.
+- [Vue CRUD](https://github.com/szczepanmasny/vue-crud) - Sistem RUD-ful CRUD berbasis Vue.js. Vue CRUD memungkinkan Anda membuat aplikasi  CMS atau CRM dengan mudah dan cepat.
+- [Vue HQ Admin Dashboard](https://vue-hq.netlify.com/) – Modern admin dashboard yang dibuat dengan Vue, Sass, Firestore, dan Netlify.
+- [MToDo](https://github.com/satriaajiputra/mtodo) - Mini To Do List
+- [FireX Proxy](https://github.com/Orogenesis/FireX-Proxy) - FireX Proxy adalah ekstensi browser Chrome dan Firefox yang memungkinkan kita untuk membuka blokir situs web apa pun dan menjelajahi web secara pribadi dan aman.
+- [VueSolitaire](https://github.com/silent-lad/VueSolitaire) - Solitaire (spider,klondike) diimplementasikan di Vue.js.
+- [Thermal](https://thermal.codecarrot.net) - One stop ke semua repositori Git.
+- [QMK Configurator](https://github.com/qmk/qmk_configurator) - QMK Firmware Keyboard Configuration UI di Vue.js.
+- [Eplee](https://github.com/Janglee123/eplee) Epub reader yang dibuat dengan Vue.js dan Electron.js.
+- [vue-realworld-example-app](https://github.com/gothinkster/vue-realworld-example-app) - Medium.com clone
+- [Daily](https://github.com/dailynowco/daily) - Berita developer terbaru yang dikirim ke tab
+- [Laravel File Manager](https://github.com/alexusmai/laravel-file-manager) - Powerful file manager untuk Laravel
+- [Vue Crypto Dashboard](https://github.com/JayeshLab/vue-crypto-dashboard) - Cryptocurrency Dashboard yang dibuat dengan Vue.js
+- [ETCD Manager](https://github.com/icellmobilsoft/etcdmanager) - Aplikasi ETUI GUI multi-platform yang modern, efisien dan gratis dibangun dengan Electron dan VueJS.
+- [Idea Re-Vue](https://github.com/MuhaddiMu/Idea-ReVue) - Platform Ide Sosial untuk Membuat, Mengelola, dan Menyumbang Gagasan dengan cara visual yang menyenangkan. Dibangun di atas VueJS dan Vuetify menggunakan Firebsae
+- [Vue Expenses](https://github.com/simplyvinay/vue-expenses) - Aplikasi pelacakan biaya yang dibuat dengan Vue.js, Vuetify, dan ASP.NET Core
+- [Akaunting](https://github.com/akaunting/akaunting) - Perangkat lunak akuntansi online dan gratis untuk usaha kecil dan freelancer yang dibuat dengan Laravel dan VueJS
+- [VueFront](https://github.com/vuefront/vuefront) - CMS Agnostic PWA & SPA.
+- [Mockup-server](https://github.com/joon610/mockup-server) - Mockup-server dengan mudah membuat server dari direktori lokal
+- [MQTTX](https://github.com/emqx/MQTTX) - Cross-platform MQTT 5.0 desktop client built dibangun dengan Vue.js, Typescript dan Electron
+- [Pychat](https://github.com/akoidan/pychat) - Obrolan video webrtc  (alternatif Slack)
+- [super.ba](https://github.com/aarsla/super.ba) - RSS News aggregator dibangun dengan Vue.js, Ant Design dari  Vue (antdv) dan NodeJS
+- [Rapido](https://framagit.org/InfoLibre/rapido) - apido adalah perangkat lunak untuk membuat situs web.
+- [Readnavi](https://github.com/somphongph/readnavi) - Template review buku
+- [miniPress](https://christiankienle.github.io/minipress/) - Static site generator
+- [Zeithub](https://github.com/m0g/zeithub) - Open source time tracking, invoice & Management keuangan untuk freelancer
+- [CodeceptJS UI](https://github.com/codecept-js/ui) - UI mirip Cypress untuk CodeceptJS
+- [Vue Pivottable](https://github.com/Seungwoo321/vue-pivottable) - Port Vue dari PivotTable.js berbasis jQuery
+- [Vue Datamaps](https://github.com/Seungwoo321/vue-datamaps) - Port Vue dari DataMaps berbasis javascript
+- [Marked.cc](https://github.com/msjaber/marked.cc) - Buat dan bagikan gambar-gambar indah dari catatan dan prosa
+- [LeagueStats](https://github.com/vkaelin/LeagueStats) - Situs web statistik untuk pemain dari game online League of Legends
+- [Veniqa](https://github.com/Viveckh/Veniqa) - Solusi E-commerce dengan klien belanja dan panel admin yang ditulis dalam Vue.
+
+Itulah total 86 project open source yang menggunakan Vue.js. 
