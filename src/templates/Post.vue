@@ -10,7 +10,7 @@
       <div class="post__header">
         <g-image
           v-if="$page.post.cover_image"
-          alt="Cover image"
+          alt="$page.post.title"
           :src="$page.post.cover_image"
         />
       </div>
@@ -24,6 +24,12 @@
 
     <div class="post-comments">
       <!-- Add comment widgets here -->
+      <div class="post-comments">
+  <vue-disqus
+    shortname="iamvue"
+    :identifier="$page.post.title"
+  ></vue-disqus>
+</div>
     </div>
 
     <Author class="post-author" />
