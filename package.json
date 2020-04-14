@@ -8,7 +8,7 @@
     "lint:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@gridsome-plugin-disqus": "1.0.3",
+    "@gridsome/gridsome-plugin-disqus": "1.0.3",
     "@gridsome/plugin-google-analytics": "0.1.0",
     "@gridsome/plugin-sitemap": "0.2.3",
     "@gridsome/remark-prismjs": "0.3.0",
