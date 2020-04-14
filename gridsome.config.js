@@ -7,7 +7,7 @@ const TITLE = 'Blog iamVue'
 const SHORT_TITLE = 'iamVue'
 const DESC =
   'Tutorial Vue.js & Belajar Pemrograman Web lainnya'
-const SITE_URL = 'https://iamvue/com'
+const SITE_URL = 'https://iamvue.com'
 
 module.exports = {
   siteName: TITLE,
@@ -21,6 +21,9 @@ module.exports = {
   },
 
   plugins: [
+    {
+      use: "@gridsome/gridsome-plugin-disqus"
+    },
     {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
