@@ -3,11 +3,11 @@
 
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-const TITLE = 'Blog VuejsID'
-const SHORT_TITLE = 'VuejsID'
+const TITLE = 'Blog iamVue'
+const SHORT_TITLE = 'iamVue'
 const DESC =
-  'Sebuah blog dari VuejsID yang membahas berbagai hal mengenai Vue.js dan ekosistemnya'
-const SITE_URL = 'https://blog.vuejs.id'
+  'Tutorial Vue.js & Belajar Pemrograman Web lainnya'
+const SITE_URL = 'https://iamvue/com'
 
 module.exports = {
   siteName: TITLE,
