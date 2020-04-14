@@ -55,7 +55,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'Beranda'
+    title: 'Belajar Pemrograman Web'
   }
 }
 </script>
