@@ -3,7 +3,7 @@ title: Membuat Static Blog dengan Gridsome di Netlify
 date: 2020-04-13
 author: iamvue
 published: true
-tags: ['vuejs', 'netlify', 'static blog']
+tags: ['Vuejs', 'Netlify', 'Static Blog']
 series: false
 cover_image: ./images/membuat-blog-statis-dengan-gridsome-dan-netlify/vuejs-netlify.png
 canonical_url: false
