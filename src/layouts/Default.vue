@@ -15,6 +15,7 @@
     </main>
 
     <footer class="footer">
+      <Footer />
       <SocialLinks />
       <span class="footer__copyright"
         >Copyright © {{ new Date().getFullYear() }}. iamVue</span
@@ -27,12 +28,14 @@
 import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
 import SocialLinks from '~/components/SocialLinks.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Logo,
     ToggleTheme,
-    SocialLinks
+    SocialLinks,
+    Footer
   },
   props: {
     showLogo: { type: Boolean, default: true }
