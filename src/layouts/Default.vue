@@ -17,8 +17,7 @@
     <footer class="footer">
       <SocialLinks />
       <span class="footer__copyright"
-        >Copyright © {{ new Date().getFullYear() }}. Vue.js Indonesia, powered
-        by <a href="//gridsome.org"> Gridsome </a></span
+        >Copyright © {{ new Date().getFullYear() }}. iamVue</span
       >
     </footer>
   </div>
