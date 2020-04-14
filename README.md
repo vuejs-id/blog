@@ -2,7 +2,7 @@
 
 ## Live
 
-- [https://blog.vuejs.id/](https://blog.vuejs.id/)
+- [https://iamvue.com](https://iamvue.com)
 
 ## Development
 
