@@ -11,7 +11,7 @@
     </header>
 
     <main class="main">
-      <Nav />
+      <p align="center"><Nav /></p>
       <slot />
     </main>
 
