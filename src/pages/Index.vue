@@ -2,6 +2,7 @@
   <Layout :show-logo="false">
     <!-- Author intro -->
     <Author :show-title="true" />
+    Belajar Vue.js & Pemrograman Web 
      <Nav />
     <!-- List posts -->
     <div class="posts">
