@@ -51,6 +51,7 @@ Beberapa konfigurasi harus disiapkan sebelum memulai menggunakan Git, seperti na
 Lakukan konfigurasi dengan perintah berikut ini.
 
 `git config --global user.name "Username Kamu"`
+
 `git config --global user.email contoh@contoh.com`
 
 Setelah melakukan konfigurasi, kamu bisa periksa konfigurasinya dengan perintah berikut
