@@ -1,6 +1,6 @@
 <template>
   <div class="footer__vue">
-  <a href="https://www.jobstreet.co.id/id/job-search/job-vacancy.php?ojs=10&key=vue.js" target="_blank">Job</a>
+  <a href="https://id.jooble.org/lowongan-kerja-programmer" target="_blank">📋 Job</a> <a href="https://projects.co.id/public/browse_projects/listing?a=ae4311" target="_blank">💻 Freelance Job</a>
     
   </div>
 </template>
