@@ -11,6 +11,7 @@
     <h1 v-if="showTitle" class="author__site-title">
       {{ $static.metadata.siteName }}
     </h1>
+        Belajar Vue.js & Pemrograman Web 
   </div>
 </template>
 
