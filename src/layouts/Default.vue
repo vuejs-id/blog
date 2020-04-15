@@ -11,7 +11,6 @@
     </header>
 
     <main class="main">
-      <p align="center"><Nav /></p>
       <slot />
     </main>
 
@@ -30,15 +29,13 @@ import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
 import SocialLinks from '~/components/SocialLinks.vue'
 import Footer from '~/components/Footer.vue'
-import Nav from '~/components/Nav.vue'
 
 export default {
   components: {
     Logo,
     ToggleTheme,
     SocialLinks,
-    Footer,
-    Nav
+    Footer
   },
   props: {
     showLogo: { type: Boolean, default: true }
