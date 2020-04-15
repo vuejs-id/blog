@@ -30,14 +30,15 @@ import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
 import SocialLinks from '~/components/SocialLinks.vue'
 import Footer from '~/components/Footer.vue'
-import Footer from '~/components/Nav.vue'
+import Nav from '~/components/Nav.vue'
 
 export default {
   components: {
     Logo,
     ToggleTheme,
     SocialLinks,
-    Footer
+    Footer,
+    Nav
   },
   props: {
     showLogo: { type: Boolean, default: true }
