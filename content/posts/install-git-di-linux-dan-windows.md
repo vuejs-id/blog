@@ -52,6 +52,8 @@ Lakukan konfigurasi dengan perintah berikut ini.
 
 `git config --global user.name "Username Kamu"`
 
+Lalu konfigurasi email berikut ini
+
 `git config --global user.email contoh@contoh.com`
 
 Setelah melakukan konfigurasi, kamu bisa periksa konfigurasinya dengan perintah berikut
