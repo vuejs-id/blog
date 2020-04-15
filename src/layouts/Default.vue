@@ -33,6 +33,8 @@ import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
 import SocialLinks from '~/components/SocialLinks.vue'
 import Footer from '~/components/Footer.vue'
+import VueNavigationBar from "vue-navigation-bar";
+Vue.component("vue-navigation-bar", VueNavigationBar);
 
 export default {
   components: {
