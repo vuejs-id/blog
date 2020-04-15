@@ -11,9 +11,12 @@ export default {
 </script>
 <style lang="scss">
 .nav__vue {
+text-align: center;
   margin-bottom: 1em;
   a {
     margin: 0 0.5em;
+    text-decoration: none;
   }
+  
 }
 </style>
