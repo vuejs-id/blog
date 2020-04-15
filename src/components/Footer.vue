@@ -1,5 +1,5 @@
 <template>
-  <div class="social__links">
+  <div class="footer__vue">
   <a href="https://www.jobstreet.co.id/id/job-search/job-vacancy.php?ojs=10&key=vue.js" target="_blank">Job</a>
     
   </div>
