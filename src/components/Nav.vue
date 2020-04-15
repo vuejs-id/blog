@@ -1,5 +1,5 @@
 <template>
-  <div class="nav__vue">
+  <div class="post-card content-box">
   <a href="https://www.iamvue.com/tag/vuejs/" class="post-tags__link"> Vue.js</a> <a href="https://www.iamvue.com/tag/php/"class="post-tags__link">PHP</a> <a href="https://www.iamvue.com/tag/git/"class="post-tags__link">Git</a>
   <a href="https://www.iamvue.com/tag/html/"class="post-tags__link">Html</a> <a href="https://www.iamvue.com/tag/laravel/"class="post-tags__link">Laravel</a> <a href="https://www.iamvue.com/tag/nodejs/"class="post-tags__link">Node.js</a>
   </div>
