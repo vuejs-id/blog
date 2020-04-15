@@ -2,7 +2,7 @@
   <Layout :show-logo="false">
     <!-- Author intro -->
     <Author :show-title="true" />
-
+     <Nav />
     <!-- List posts -->
     <div class="posts">
       <PostCard
@@ -48,11 +48,13 @@ query {
 <script>
 import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
+import Nav from '~/components/Nav.vue'
 
 export default {
   components: {
     Author,
-    PostCard
+    PostCard,
+    Nav
   },
   metaInfo: {
     title: 'Belajar Pemrograman Web'
