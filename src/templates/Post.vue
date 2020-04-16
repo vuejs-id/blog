@@ -23,7 +23,12 @@
     </div>
 
     <div class="post-comments">
-      <!-- Add comment widgets here -->       
+      <div class="post-comments">
+  <vue-disqus
+    shortname="iamvue"
+    :identifier="$page.post.title"
+  ></vue-disqus>
+</div>      
     </div>
 
     <Author class="post-author" />
