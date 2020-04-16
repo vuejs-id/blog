@@ -14,6 +14,7 @@ export default {
   margin-bottom: 1em;
   a {
     margin: 0 0.5em;
+    text-decoration: none;
   }
 }
 </style>
