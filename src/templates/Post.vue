@@ -16,7 +16,7 @@
       </div>
 
       <div class="post__content" v-html="$page.post.content" />
-
+<Share />
       <div class="post__footer">
         <PostTags :post="$page.post" />
       </div>
@@ -34,6 +34,8 @@
 import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
 import Author from '~/components/Author.vue'
+
+import Share from '~/components/Share.vue'
 
 export default {
   components: {
