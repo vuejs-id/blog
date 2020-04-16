@@ -92,17 +92,17 @@ Lalu buat efek ombak pada bagian `<body>` di website mu.
 
 
 ```
-&lt;div class=&quot;waveWrapper waveAnimation&quot;&gt;
-  &lt;div class=&quot;waveWrapperInner bgTop&quot;&gt;
-    &lt;div class=&quot;wave waveTop&quot; style=&quot;background-image: url(&#039;http://front-end-noobs.com/jecko/img/wave-top.png&#039;)&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;waveWrapperInner bgMiddle&quot;&gt;
-    &lt;div class=&quot;wave waveMiddle&quot; style=&quot;background-image: url(&#039;http://front-end-noobs.com/jecko/img/wave-mid.png&#039;)&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;waveWrapperInner bgBottom&quot;&gt;
-    &lt;div class=&quot;wave waveBottom&quot; style=&quot;background-image: url(&#039;http://front-end-noobs.com/jecko/img/wave-bot.png&#039;)&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+<div class="waveWrapper waveAnimation">
+  <div class="waveWrapperInner bgTop">
+    <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+  </div>
+  <div class="waveWrapperInner bgMiddle">
+    <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+  </div>
+  <div class="waveWrapperInner bgBottom">
+    <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+  </div>
+</div>
 ```
 
 Lihat hasilnya di [Live Demo](https://jsfiddle.net/hamknw/0pLy7xge/7/)
