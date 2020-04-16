@@ -21,6 +21,7 @@
     "yarn": "^1.19.1"
   },
   "devDependencies": {
+    "vue-social-sharing": "^2.4.7",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.5.0",
