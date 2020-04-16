@@ -15,7 +15,7 @@ Kali ini kita akan belajar membuat efek ombak atau Wave Form dengan HMTMl5 dan C
 Pertama tambahkan kode berikut pada `style.css` situsmu
 
 
-<pre><code>
+```
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
@@ -85,13 +85,13 @@ Pertama tambahkan kode berikut pada `style.css` situsmu
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
 }
-</code></pre>
+```
 
 
 Lalu buat efek ombak pada bagian `<body>` di website mu.
 
 
-<pre><code>
+```
 &lt;div class=&quot;waveWrapper waveAnimation&quot;&gt;
   &lt;div class=&quot;waveWrapperInner bgTop&quot;&gt;
     &lt;div class=&quot;wave waveTop&quot; style=&quot;background-image: url(&#039;http://front-end-noobs.com/jecko/img/wave-top.png&#039;)&quot;&gt;&lt;/div&gt;
@@ -103,6 +103,6 @@ Lalu buat efek ombak pada bagian `<body>` di website mu.
     &lt;div class=&quot;wave waveBottom&quot; style=&quot;background-image: url(&#039;http://front-end-noobs.com/jecko/img/wave-bot.png&#039;)&quot;&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-</code></pre>
+```
 
 Lihat hasilnya di [Live Demo](https://jsfiddle.net/hamknw/0pLy7xge/7/)
