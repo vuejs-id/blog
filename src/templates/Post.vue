@@ -23,9 +23,7 @@
     </div>
 
     <div class="post-comments">
-      <div class="post-comments">
-  <vue-disqus-embed :identifier="identifier" :url="url" />
-</div>      
+      <!-- Add comment widgets here -->       
     </div>
 
     <Author class="post-author" />
@@ -36,12 +34,6 @@
 import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
 import Author from '~/components/Author.vue'
-import Vue from 'vue'
-import VueDisqusEmbed from 'vue-disqus-embed'
-
-Vue.use(VueDisqusEmbed, {
-  shortname: iamvue
-})
 
 
 export default {
@@ -50,20 +42,6 @@ export default {
     PostMeta,
     PostTags
   },
-  data () {
-      return {
-        identifier: '',
-        url: '',
-      }
-    },
-    mounted() {
-      // Could work with async data
-      // It needs identifier and url not empty before updated
-      fetchData().then((response) => {
-        this.identifier = response.identifer
-        this.url = response.url
-      })
-    },
   metaInfo() {
     return {
       title: this.$page.post.title,
