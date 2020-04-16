@@ -1,12 +1,12 @@
 <template>
   <div class="nav__vue">
-  <a href="https://www.iamvue.com/tag/vuejs/" class="post-tags__nav"><ion-icon name="logo-vue"></ion-icon> Vue.js</a> 
-  <a href="https://www.iamvue.com/tag/php/" class="post-tags__nav"><ion-icon name="code-slash-outline"></ion-icon> PHP</a> 
-  <a href="https://www.iamvue.com/tag/git/"class="post-tags__nav"><ion-icon name="git-branch-outline"></ion-icon> Git</a>
-  <a href="https://www.iamvue.com/tag/html/"class="post-tags__nav"><ion-icon name="logo-html5"></ion-icon> Html</a> 
-  <a href="https://www.iamvue.com/tag/laravel/" class="post-tags__nav"><ion-icon name="logo-laravel"></ion-icon> Laravel</a> <br/>
-  <a href="https://www.iamvue.com/tag/nodejs/"class="post-tags__nav"><ion-icon name="logo-nodejs"></ion-icon> Node.js</a>
-  <a href="https://www.iamvue.com/tag/wordpress/"class="post-tags__nav"><ion-icon name="logo-wordpress"></ion-icon> Wordpress</a>
+  <span><a href="https://www.iamvue.com/tag/vuejs/" class="post-tags__nav"><ion-icon name="logo-vue"></ion-icon> Vue.js</a> </span>
+  <span><a href="https://www.iamvue.com/tag/php/" class="post-tags__nav"><ion-icon name="code-slash-outline"></ion-icon> PHP</a> </span>
+  <span><a href="https://www.iamvue.com/tag/git/"class="post-tags__nav"><ion-icon name="git-branch-outline"></ion-icon> Git</a></span>
+  <span><a href="https://www.iamvue.com/tag/html/"class="post-tags__nav"><ion-icon name="logo-html5"></ion-icon> Html</a> </span>
+  <span><a href="https://www.iamvue.com/tag/laravel/" class="post-tags__nav"><ion-icon name="logo-laravel"></ion-icon> Laravel</a></span>
+  <span><a href="https://www.iamvue.com/tag/nodejs/"class="post-tags__nav"><ion-icon name="logo-nodejs"></ion-icon> Node.js</a></span>
+  <span><a href="https://www.iamvue.com/tag/wordpress/"class="post-tags__nav"><ion-icon name="logo-wordpress"></ion-icon> Wordpress</a></span>
   </div>
 </template>
 <script>
