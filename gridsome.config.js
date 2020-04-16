@@ -21,9 +21,6 @@ module.exports = {
   },
 
   plugins: [
-	{
-      use: "@gridsome/gridsome-plugin-disqus"
-    },
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
