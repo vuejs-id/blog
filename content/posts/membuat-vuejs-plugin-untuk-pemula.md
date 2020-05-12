@@ -7,12 +7,10 @@ tags: ['Tutorial', 'Dasar', 'Serial']
 series: true
 cover_image: ./images/shared/vuejs-id-logo.jpeg
 canonical_url: false
-description: Beberapa cara untuk berkomunikasi antar komponen di Vue.js
+description: Belajar membuat Vue.js Plugin yang ditujukan untuk para pemula dari awal sampai publish ke npm registry.
 ---
 
-Belajar membuat Vue.js Plugin yang ditujukan untuk para pemula dari awal sampai publish ke npm registry.
-
-Setelah di artikel ini kita sedikit membahas soal apa itu Vue.js Plugin maka kali ini kita akan langsung belajar membuat Vue.js Plugin dari awal sampai bisa publish ke npm registry. Langsung saja, silahkan disimak beberapa langkah-langkahnya.
+Di artikel ini kita sedikit membahas soal apa itu Vue.js Plugin maka kali ini kita akan langsung belajar membuat Vue.js Plugin dari awal sampai bisa publish ke npm registry. Langsung saja, silahkan disimak beberapa langkah-langkahnya.
 
 Pertama adalah siapkan environment untuk development Vue.js project sederhana, untuk hal ini saya menggunakan beberapa dependency berikut yang mungkin saja ada beberapa yang tidak dibutuhkan namun tidak sempat lagi inspeksi mana yang tidak digunakan, berikut contoh snippet dari dependency yang saya gunakan di **package.json** :
 
@@ -47,11 +45,11 @@ Pertama adalah siapkan environment untuk development Vue.js project sederhana, u
 
 Setelah menambahkan dependency dan menginstall semuanya maka dalam rangka menyiapkan environment ini, kita akan buat `webpack.config.js`, beberapa loader yang kita gunakan adalah `babel`, `vue-loader` dan `sass-loader`, berikut contoh konfigurasi webpack yang kita buat untuk kebutuhan development kita :
 
-```
-var path = require('path');
-var webpack = require('webpack');
+```js
+var path = require('path')
+var webpack = require('webpack')
 
-require('es6-promise').polyfill();
+require('es6-promise').polyfill()
 
 module.exports = {
   entry: {
@@ -66,11 +64,11 @@ module.exports = {
   resolve: {
     extensions: ['.js'],
     alias: {
-      'vue$': 'vue/dist/vue.common.js'
+      vue$: 'vue/dist/vue.common.js'
     }
   },
   module: {
-    rules: [      
+    rules: [
       {
         test: /\.vue$/,
         loader: 'vue-loader',
@@ -79,8 +77,8 @@ module.exports = {
             // Since sass-loader (weirdly) has SCSS as its default parse mode, we map
             // the "scss" and "sass" values for the lang attribute to the right configs here.
             // other preprocessors should work out of the box, no loader config like this necessary.
-            'scss': 'vue-style-loader!css-loader!sass-loader',
-            'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
+            scss: 'vue-style-loader!css-loader!sass-loader',
+            sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
           }
           // other vue-loader options go here
         }
@@ -101,7 +99,6 @@ module.exports = {
   },
   devtool: '#eval-source-map'
 }
-
 
 if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map'
