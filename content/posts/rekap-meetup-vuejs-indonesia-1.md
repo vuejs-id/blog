@@ -7,7 +7,7 @@ tags: ['Meetup']
 series: false
 cover_image: ./images/shared/meetup_1_poster.png
 canonical_url: false
-description: Berbagai pengetahuan dasar yang perlu Anda ketahui di Vue.js.
+description: Rekap meetup vuejs.id yang pertama!
 ---
 
 Ramai sekali untuk ukuran meetup pertama.
