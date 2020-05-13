@@ -75,7 +75,8 @@ module.exports = {
         shortName: SHORT_TITLE,
         themeColor: '#E12A43',
         backgroundColor: '#ffffff',
-        icon: './static/logo.png'
+        icon: './static/logo.png',
+        cachedFileTypes: 'js,json,css,png,jpg,jpeg,svg',
       }
     },
     {
