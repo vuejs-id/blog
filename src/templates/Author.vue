@@ -14,6 +14,21 @@
   </Layout>
 </template>
 
+<script>
+import PostCard from '~/components/PostCard.vue'
+
+export default {
+  components: {
+    PostCard
+  },
+  metaInfo: {
+    title: `Articles written by ${this.$page.author.title} in Blog Vuejs-ID`
+  }
+}
+</script>
+
+<style lang="scss"></style>
+
 <page-query>
 query Author ($id: ID!) {
   author (id: $id) {
@@ -35,18 +50,3 @@ query Author ($id: ID!) {
   }
 }
 </page-query>
-
-<script>
-import PostCard from '~/components/PostCard.vue'
-
-export default {
-  components: {
-    PostCard
-  },
-  metaInfo: {
-    title: `Articles written by ${this.$page.author.title} in Blog Vuejs-ID`
-  }
-}
-</script>
-
-<style lang="scss"></style>
