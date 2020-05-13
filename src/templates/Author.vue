@@ -21,8 +21,10 @@ export default {
   components: {
     PostCard
   },
-  metaInfo: {
-    title: `Articles written by ${this.$page.author.title} in Blog Vuejs-ID`
+  metaInfo(){
+    return {
+      title: `Articles written by ${this.$page.author.title} in Blog Vuejs-ID`
+    }
   }
 }
 </script>
