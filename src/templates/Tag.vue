@@ -19,8 +19,10 @@ export default {
   components: {
     PostCard
   },
-  metaInfo: {
-    title: `Articles under tag ${this.$page.tag.title}`
+  metaInfo() {
+    return {
+      title: `Articles under tag ${this.$page.tag.title}`
+    }
   }
 }
 </script>
