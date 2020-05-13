@@ -50,7 +50,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: `Articles under tag ${this.$page.tag.title}`
   }
 }
 </script>
