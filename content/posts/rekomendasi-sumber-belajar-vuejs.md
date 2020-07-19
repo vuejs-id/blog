@@ -1,7 +1,7 @@
 ---
 title: Rekomendasi Sumber Belajar Vue.js
 date: 2020-07-17
-author: rido mulanda
+author: ridomulanda
 published: true
 tags: ['Course', 'Rekomendasi', 'Vue', 'Learn']
 series: false
