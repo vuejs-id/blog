@@ -1,15 +1,7 @@
 <template>
-  <div
-    class="post-card content-box"
-    :class="{ 'post-card--has-poster': post.poster }"
-  >
+  <div class="post-card content-box" :class="{ 'post-card--has-poster': post.poster }">
     <div class="post-card__header">
-      <g-image
-        v-if="post.cover_image"
-        alt="Cover image"
-        class="post-card__image"
-        :src="post.cover_image"
-      />
+      <g-image v-if="post.cover_image" alt="Cover image" class="post-card__image" :src="post.cover_image" />
     </div>
     <div class="post-card__content">
       <h2 class="post-card__title" v-html="post.title" />
@@ -30,14 +22,14 @@ import PostTags from '~/components/PostTags'
 export default {
   components: {
     PostMeta,
-    PostTags
+    PostTags,
   },
   props: {
     post: {
       type: Object,
-      default: () => {}
-    }
-  }
+      default: () => {},
+    },
+  },
 }
 </script>
 
