@@ -8,11 +8,7 @@
     </div>
     <div class="post content-box">
       <div class="post__header">
-        <g-image
-          v-if="$page.post.cover_image"
-          alt="Cover image"
-          :src="$page.post.cover_image"
-        />
+        <g-image v-if="$page.post.cover_image" alt="Cover image" :src="$page.post.cover_image" />
       </div>
 
       <div class="post__content" v-html="$page.post.content" />
@@ -39,7 +35,7 @@ export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
   },
   metaInfo() {
     return {
@@ -47,11 +43,11 @@ export default {
       meta: [
         {
           name: 'description',
-          content: this.$page.post.description
-        }
-      ]
+          content: this.$page.post.description,
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 

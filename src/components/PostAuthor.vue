@@ -4,12 +4,7 @@
       {{ post.author.title }}
     </span>
     <g-link class="post-author__link" :to="post.author.path">
-      <g-image
-        v-if="post.author.avatar"
-        alt="Author"
-        class="post-author__avatar"
-        :src="post.author.avatar"
-      />
+      <g-image v-if="post.author.avatar" alt="Author" class="post-author__avatar" :src="post.author.avatar" />
     </g-link>
   </div>
 </template>
@@ -19,9 +14,9 @@ export default {
   props: {
     post: {
       type: Object,
-      default: () => {}
-    }
-  }
+      default: () => {},
+    },
+  },
 }
 </script>
 

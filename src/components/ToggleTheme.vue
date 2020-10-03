@@ -1,10 +1,5 @@
 <template>
-  <button
-    role="button"
-    aria-label="Toggle dark/light"
-    class="toggle-theme"
-    @click.prevent="toggleTheme"
-  >
+  <button role="button" aria-label="Toggle dark/light" class="toggle-theme" @click.prevent="toggleTheme">
     <svg
       v-if="darkTheme"
       xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +45,7 @@
 export default {
   data() {
     return {
-      darkTheme: false
+      darkTheme: false,
     }
   },
   mounted() {
@@ -62,8 +57,8 @@ export default {
 
       // This is using a script that is added in index.html
       window.__setPreferredTheme(this.darkTheme ? 'dark' : 'light')
-    }
-  }
+    },
+  },
 }
 </script>
 
