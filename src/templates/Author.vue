@@ -1,15 +1,9 @@
 <template>
   <Layout>
-    <h1 class="tag-title text-center space-bottom">
-      # {{ $page.author.title }}
-    </h1>
+    <h1 class="tag-title text-center space-bottom"># {{ $page.author.title }}</h1>
 
     <div class="posts">
-      <PostCard
-        v-for="edge in $page.author.belongsTo.edges"
-        :key="edge.node.id"
-        :post="edge.node"
-      />
+      <PostCard v-for="edge in $page.author.belongsTo.edges" :key="edge.node.id" :post="edge.node" />
     </div>
   </Layout>
 </template>
@@ -19,13 +13,13 @@ import PostCard from '~/components/PostCard.vue'
 
 export default {
   components: {
-    PostCard
+    PostCard,
   },
-  metaInfo(){
+  metaInfo() {
     return {
-      title: `Articles written by ${this.$page.author.title} in Blog Vuejs-ID`
+      title: `Articles written by ${this.$page.author.title} in Blog Vuejs-ID`,
     }
-  }
+  },
 }
 </script>
 

@@ -15,14 +15,14 @@ import PostAuthor from '~/components/PostAuthor'
 
 export default {
   components: {
-    PostAuthor
+    PostAuthor,
   },
   props: {
     post: {
       type: Object,
-      default: () => {}
-    }
-  }
+      default: () => {},
+    },
+  },
 }
 </script>
 
