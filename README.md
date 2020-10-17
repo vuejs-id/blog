@@ -15,7 +15,7 @@
 ## Development
 
 1. Install deps `yarn`
-2. Run project `yarn develop`, open at `http://localhost:8080`
+2. Run project `yarn dev`, open at `http://localhost:8080`
 3. Build project `yarn build`
 
 ## Menerbitkan Tulisanmu pada Blog Vue.js ID
