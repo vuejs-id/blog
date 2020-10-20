@@ -1,8 +1,5 @@
 <template>
-  <Layout :show-logo="false">
-    <!-- Author intro -->
-    <Author :show-title="true" />
-
+  <Layout :is-home="true">
     <!-- List posts -->
     <div class="posts">
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
@@ -42,16 +39,14 @@ query {
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
 
 export default {
   components: {
-    Author,
     PostCard,
   },
   metaInfo: {
-    title: 'Beranda',
+    title: 'Beranda Blog | Vue.js Indonesia',
   },
 }
 </script>

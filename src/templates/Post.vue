@@ -39,7 +39,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.post.title,
+      title: `${this.$page.post.title} | Vue.js Indonesia`,
       meta: [
         {
           name: 'description',

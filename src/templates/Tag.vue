@@ -17,7 +17,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: `Articles under tag ${this.$page.tag.title}`,
+      title: `Artikel dengan label ${this.$page.tag.title} | Vue.js Indonesia`,
     }
   },
 }

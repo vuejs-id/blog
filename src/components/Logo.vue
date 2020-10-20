@@ -1,16 +1,17 @@
 <template>
   <g-link class="logo" to="/">
-    <span class="logo__text"> &larr; {{ $static.metadata.siteName }} </span>
+    <span class="logo__text">
+      <g-image
+        alt="Vue.js Indonesia"
+        class="logo__img"
+        src="~/assets/images/vuejs-id.png"
+        width="50"
+        height="50"
+        blur="5"
+      />
+    </span>
   </g-link>
 </template>
-
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
 
 <style lang="scss">
 .logo {
