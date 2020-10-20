@@ -66,6 +66,7 @@ export default {
 .toggle-theme {
   background-color: transparent;
   border: 0;
+  padding: 1em;
   color: var(--body-color);
   cursor: pointer;
 
