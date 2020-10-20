@@ -166,5 +166,10 @@ export default {
     padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
     text-align: center;
   }
+
+  ul {
+    margin-left: 0;
+    padding-left: 1em;
+  }
 }
 </style>

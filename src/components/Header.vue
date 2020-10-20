@@ -5,6 +5,7 @@
     </div>
 
     <div class="header__right">
+      <g-link class="header__link" to="/meetup"> Meetup </g-link>
       <g-link class="header__link" to="/kode-etik"> Kode Etik </g-link>
       <ToggleTheme />
     </div>
