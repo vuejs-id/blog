@@ -2,7 +2,7 @@
   <Layout :is-home="true">
     <!-- List posts -->
     <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+      <PostCard v-for="edge in postWoMeetup" :key="edge.node.id" :post="edge.node" />
     </div>
   </Layout>
 </template>
@@ -47,6 +47,15 @@ export default {
   },
   metaInfo: {
     title: 'Beranda Blog | Vue.js Indonesia',
+  },
+  computed: {
+    postWoMeetup: function () {
+      return this.$page.posts.edges.filter((post) => {
+        const postTags = post.node.tags
+        const isIncludeMeetup = postTags.find((tag) => tag.id === 'Meetup')
+        return !isIncludeMeetup
+      })
+    },
   },
 }
 </script>
