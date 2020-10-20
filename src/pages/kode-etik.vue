@@ -128,10 +128,6 @@
           </p>
         </section>
         <section class="coc__item">
-          <h3>Informasi Kontak Penyelenggara</h3>
-          <p></p>
-        </section>
-        <section class="coc__item">
           <h3>Lisensi dan Atribusi</h3>
           <p>
             Kode Etik ini diadaptasi dari Citizen Code of Conduct dan Kode Etik Open Source Bridge. Dokumen asli dapat
