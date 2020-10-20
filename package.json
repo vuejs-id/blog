@@ -2,6 +2,7 @@
   "name": "gridsome-blog",
   "private": true,
   "scripts": {
+		"cz": "cz",
     "build": "gridsome build",
     "dev": "gridsome develop",
     "explore": "gridsome explore",
@@ -29,15 +30,22 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-vue": "^7.0.0",
+		"cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",
     "node-sass": "4.14.1",
     "prettier": "^2.1.2",
     "sass-loader": "10.0.2",
     "slugify": "^1.4.5"
-  },
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
+	},
   "husky": {
     "hooks": {
+			"prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
       "pre-commit": "lint-staged"
     }
   },
