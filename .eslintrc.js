@@ -23,5 +23,6 @@ module.exports = {
     'vue/no-v-html': 0,
     'import/no-extraneous-dependencies': 0,
     'prettier/prettier': 'error',
+    'vue/multi-word-component-names': 0,
   },
 }
