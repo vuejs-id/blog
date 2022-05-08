@@ -5,8 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 const TITLE = 'Blog VuejsID'
 const SHORT_TITLE = 'VuejsID'
-const DESC =
-  'Sebuah blog dari VuejsID yang membahas berbagai hal mengenai Vue.js dan ekosistemnya'
+const DESC = 'Sebuah blog dari VuejsID yang membahas berbagai hal mengenai Vue.js dan ekosistemnya'
 const SITE_URL = 'https://blog.vuejs.id'
 
 module.exports = {
@@ -17,7 +16,7 @@ module.exports = {
   templates: {
     Post: '/:title',
     Tag: '/tag/:title',
-    Author: '/author/:title'
+    Author: '/author/:title',
   },
 
   plugins: [
@@ -31,20 +30,20 @@ module.exports = {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: 'Tag',
-            create: true
+            create: true,
           },
           author: {
             typeName: 'Author',
-            create: true
-          }
-        }
-      }
+            create: true,
+          },
+        },
+      },
     },
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
-        id: 'UA-166364803-1'
-      }
+        id: 'UA-166364803-1',
+      },
     },
     {
       use: '@gridsome/plugin-sitemap',
@@ -54,14 +53,14 @@ module.exports = {
         config: {
           '/articles/*': {
             changefreq: 'weekly',
-            priority: 0.5
+            priority: 0.5,
           },
           '/about': {
             changefreq: 'monthly',
-            priority: 0.7
-          }
-        }
-      }
+            priority: 0.7,
+          },
+        },
+      },
     },
     {
       use: 'gridsome-plugin-pwa',
@@ -77,7 +76,7 @@ module.exports = {
         backgroundColor: '#ffffff',
         icon: './static/logo.png',
         cachedFileTypes: 'js,json,css,png,jpg,jpeg,svg',
-      }
+      },
     },
     {
       use: 'gridsome-plugin-feed',
@@ -88,21 +87,21 @@ module.exports = {
         // See https://www.npmjs.com/package/feed#example for available properties
         feedOptions: {
           title: TITLE,
-          description: DESC
+          description: DESC,
         },
         // === All options after this point show their default values ===
         // Optional; opt into which feeds you wish to generate, and set their output path
         rss: {
           enabled: true,
-          output: '/feed.xml'
+          output: '/feed.xml',
         },
         atom: {
           enabled: true,
-          output: '/feed.atom'
+          output: '/feed.atom',
         },
         json: {
           enabled: true,
-          output: '/feed.json'
+          output: '/feed.json',
         },
         // Optional: the maximum number of items to include in your feed
         maxItems: 25,
@@ -114,17 +113,17 @@ module.exports = {
         enforceTrailingSlashes: false,
         // Optional: a method that accepts a node and returns true (include) or false (exclude)
         // Example: only past-dated nodes: `filterNodes: (node) => node.date <= new Date()`
-        filterNodes: node => true,
+        filterNodes: (node) => true,
         // Optional: a method that accepts a node and returns an object for `Feed.addItem()`
         // See https://www.npmjs.com/package/feed#example for available properties
         // NOTE: `date` field MUST be a Javascript `Date` object
-        nodeToFeedItem: node => ({
+        nodeToFeedItem: (node) => ({
           title: node.title,
           date: node.date || new Date(),
-          content: node.content
-        })
-      }
-    }
+          content: node.content,
+        }),
+      },
+    },
   ],
 
   transformers: {
@@ -133,7 +132,7 @@ module.exports = {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
-      plugins: ['@gridsome/remark-prismjs']
-    }
-  }
+      plugins: ['@gridsome/remark-prismjs'],
+    },
+  },
 }

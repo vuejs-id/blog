@@ -21,7 +21,7 @@
     "gridsome-plugin-pwa": "^0.0.22"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
+    "@babel/eslint-parser": "^7.16.3",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.15.0",
@@ -37,7 +37,8 @@
     "lint-staged": "^12.4.1",
     "node-sass": "7.0.1",
     "prettier": "^2.6.2",
-    "sass-loader": "12.6.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^10.1.1",
     "slugify": "^1.6.5"
   },
   "config": {
